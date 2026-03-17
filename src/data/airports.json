@@ -1,0 +1,6277 @@
+[
+  {
+    "iata": "AAA",
+    "city": "Casablanca",
+    "country": "Unknown"
+  },
+  {
+    "iata": "AAL",
+    "city": "Aalborg",
+    "country": "Unknown"
+  },
+  {
+    "iata": "AAR",
+    "city": "Aarhus",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ABA",
+    "city": "Abakan",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ABD",
+    "city": "Abadan",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ABE",
+    "city": "Allentown",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ABI",
+    "city": "Abilene",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ABJ",
+    "city": "Abidjan",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ABQ",
+    "city": "Albuquerque",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ABR",
+    "city": "Aberdeen",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ABT",
+    "city": "Al-Baha",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ABV",
+    "city": "Abuja",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ABY",
+    "city": "Albany",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ABZ",
+    "city": "Aberdeen",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ACA",
+    "city": "Acapulco",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ACC",
+    "city": "Accra",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ACK",
+    "city": "Nantucket",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ACT",
+    "city": "Waco",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ACV",
+    "city": "Arcata, Eureka",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ACY",
+    "city": "Atlantic City, Pomona Field",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ADA",
+    "city": "Adana",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ADB",
+    "city": "Izmir, Adnan Menderes",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ADD",
+    "city": "Addis Ababa",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ADE",
+    "city": "Aden",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ADK",
+    "city": "Adak Island",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ADL",
+    "city": "Adelaide",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ADQ",
+    "city": "Kodiak",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ADZ",
+    "city": "San Andres Island",
+    "country": "Unknown"
+  },
+  {
+    "iata": "AEP",
+    "city": "Buenos Aires, Jorge Newbery",
+    "country": "Unknown"
+  },
+  {
+    "iata": "AER",
+    "city": "Adler",
+    "country": "Unknown"
+  },
+  {
+    "iata": "AET",
+    "city": "Allakaket",
+    "country": "Unknown"
+  },
+  {
+    "iata": "AGA",
+    "city": "Agadir",
+    "country": "Unknown"
+  },
+  {
+    "iata": "AGH",
+    "city": "Helsingborg",
+    "country": "Unknown"
+  },
+  {
+    "iata": "AGP",
+    "city": "Malaga",
+    "country": "Unknown"
+  },
+  {
+    "iata": "AGS",
+    "city": "Augusta",
+    "country": "Unknown"
+  },
+  {
+    "iata": "AGU",
+    "city": "Aguascaliente",
+    "country": "Unknown"
+  },
+  {
+    "iata": "AGV",
+    "city": "Acarigua",
+    "country": "Unknown"
+  },
+  {
+    "iata": "AHB",
+    "city": "Abha",
+    "country": "Unknown"
+  },
+  {
+    "iata": "AHT",
+    "city": "Amchitka",
+    "country": "Unknown"
+  },
+  {
+    "iata": "AIY",
+    "city": "Atlantic City",
+    "country": "Unknown"
+  },
+  {
+    "iata": "AJA",
+    "city": "Ajaccio",
+    "country": "Unknown"
+  },
+  {
+    "iata": "AKA",
+    "city": "Ankang",
+    "country": "Unknown"
+  },
+  {
+    "iata": "AKI",
+    "city": "Akiak",
+    "country": "Unknown"
+  },
+  {
+    "iata": "AKJ",
+    "city": "Ashikawa",
+    "country": "Unknown"
+  },
+  {
+    "iata": "AKL",
+    "city": "Auckland",
+    "country": "Unknown"
+  },
+  {
+    "iata": "AKN",
+    "city": "King Salm",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ALA",
+    "city": "Alma Ata",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ALB",
+    "city": "Albany",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ALC",
+    "city": "Alicante",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ALG",
+    "city": "Algiers",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ALP",
+    "city": "Aleppo",
+    "country": "Unknown"
+  },
+  {
+    "iata": "AMA",
+    "city": "Amarillo",
+    "country": "Unknown"
+  },
+  {
+    "iata": "AMD",
+    "city": "Ahmedabad",
+    "country": "Unknown"
+  },
+  {
+    "iata": "AMM",
+    "city": "Amman",
+    "country": "Unknown"
+  },
+  {
+    "iata": "AMS",
+    "city": "Amsterdam",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ANC",
+    "city": "Anchorage",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ANF",
+    "city": "Antofagasta",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ANI",
+    "city": "Aniak",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ANK",
+    "city": "Ankara",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ANR",
+    "city": "Antwerp",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ANS",
+    "city": "Andahuaylas",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ANU",
+    "city": "Antigua",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ANV",
+    "city": "Anvik",
+    "country": "Unknown"
+  },
+  {
+    "iata": "AOI",
+    "city": "Ancona",
+    "country": "Unknown"
+  },
+  {
+    "iata": "AOJ",
+    "city": "Aomori",
+    "country": "Unknown"
+  },
+  {
+    "iata": "AOO",
+    "city": "Altoona",
+    "country": "Unknown"
+  },
+  {
+    "iata": "AOR",
+    "city": "Alor Setar",
+    "country": "Unknown"
+  },
+  {
+    "iata": "APF",
+    "city": "Naples",
+    "country": "Unknown"
+  },
+  {
+    "iata": "APW",
+    "city": "Apia",
+    "country": "Unknown"
+  },
+  {
+    "iata": "AQJ",
+    "city": "Aqaba",
+    "country": "Unknown"
+  },
+  {
+    "iata": "AQP",
+    "city": "Arequipa",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ARC",
+    "city": "Arctic Village",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ARE",
+    "city": "Arecibo",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ARI",
+    "city": "Arica",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ARN",
+    "city": "Stockholm, Arlanda",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ASC",
+    "city": "Ascension",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ASM",
+    "city": "Asmara",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ASU",
+    "city": "Asuncion",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ASW",
+    "city": "Aswan",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ATH",
+    "city": "Athens",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ATL",
+    "city": "Atlanta",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ATQ",
+    "city": "Amritsar",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ATT",
+    "city": "Atmautluak",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ATW",
+    "city": "Appleton",
+    "country": "Unknown"
+  },
+  {
+    "iata": "AUA",
+    "city": "Aruba",
+    "country": "Unknown"
+  },
+  {
+    "iata": "AUH",
+    "city": "Abu Dhabi",
+    "country": "Unknown"
+  },
+  {
+    "iata": "AUS",
+    "city": "Austin",
+    "country": "Unknown"
+  },
+  {
+    "iata": "AUW",
+    "city": "Wausau",
+    "country": "Unknown"
+  },
+  {
+    "iata": "AVL",
+    "city": "Asheville",
+    "country": "Unknown"
+  },
+  {
+    "iata": "AVP",
+    "city": "Scranton, Wilkes -Barre",
+    "country": "Unknown"
+  },
+  {
+    "iata": "AXD",
+    "city": "Aleandroupolis",
+    "country": "Unknown"
+  },
+  {
+    "iata": "AXT",
+    "city": "Akita",
+    "country": "Unknown"
+  },
+  {
+    "iata": "AYP",
+    "city": "Ayacucho",
+    "country": "Unknown"
+  },
+  {
+    "iata": "AYT",
+    "city": "Antalya",
+    "country": "Unknown"
+  },
+  {
+    "iata": "AZA",
+    "city": "Anguilla",
+    "country": "Unknown"
+  },
+  {
+    "iata": "AZO",
+    "city": "Kalamazoo",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BAH",
+    "city": "Bahrain",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BAQ",
+    "city": "Barranquilla",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BAV",
+    "city": "Baotou",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BBA",
+    "city": "Balmaceda",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BBU",
+    "city": "Bucharest, Baneasa",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BCN",
+    "city": "Barcelona",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BDA",
+    "city": "Bermuda",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BDG",
+    "city": "Bundaberg, Blanding",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BDL",
+    "city": "Hartford, Bradford",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BDR",
+    "city": "Bridgeport",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BDU",
+    "city": "Bardufoss",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BEG",
+    "city": "Belgrade",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BEL",
+    "city": "Belem",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BEN",
+    "city": "Benghazi",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BER",
+    "city": "Berlin",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BES",
+    "city": "Brest",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BET",
+    "city": "Bethel",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BEW",
+    "city": "Beira",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BEY",
+    "city": "Beirut",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BFL",
+    "city": "Bakersfield",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BFN",
+    "city": "Bloemfontein",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BFS",
+    "city": "Belfast",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BGA",
+    "city": "Bucaramanga",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BGF",
+    "city": "Bangui",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BGI",
+    "city": "Barbados",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BGM",
+    "city": "Binghamton",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BGO",
+    "city": "Bergen",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BGR",
+    "city": "Bangor",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BGW",
+    "city": "Baghdad, Al Muthana",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BGY",
+    "city": "Milan, Orio al Serio",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BHD",
+    "city": "Belfast, Belfast City",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BHM",
+    "city": "Birmingham",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BHX",
+    "city": "Birmingham",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BHZ",
+    "city": "Belo Horizonte",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BIA",
+    "city": "Bastia",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BIK",
+    "city": "Bastia, Biak",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BIL",
+    "city": "Billings",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BIO",
+    "city": "Bilbao",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BIQ",
+    "city": "Biarritz",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BJL",
+    "city": "Banjul",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BJM",
+    "city": "Bujumbura",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BJS",
+    "city": "Beijing",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BKI",
+    "city": "Kota Kinabalu",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BKK",
+    "city": "Bangkok",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BKL",
+    "city": "Cleveland, Burke Lakefront",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BKO",
+    "city": "Bamako",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BLA",
+    "city": "Barcelona",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BLI",
+    "city": "Bellingham",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BLL",
+    "city": "Billund",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BLQ",
+    "city": "Bologna",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BLR",
+    "city": "Bangalore",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BLZ",
+    "city": "Blantyre",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BMA",
+    "city": "Stockholm, Bromma",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BMI",
+    "city": "Bloomington",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BNA",
+    "city": "Nashville",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BND",
+    "city": "Bandar Abbas",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BNE",
+    "city": "Brisbane",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BNH",
+    "city": "Hartford, Barnes",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BNS",
+    "city": "Barinas",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BOD",
+    "city": "Bordeaux",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BOG",
+    "city": "Bogota",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BOH",
+    "city": "Bournemouth",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BOI",
+    "city": "Boise",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BOM",
+    "city": "Bombay",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BON",
+    "city": "Bonaire",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BOO",
+    "city": "Bodo",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BOS",
+    "city": "Boston",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BPT",
+    "city": "Beaumont",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BRD",
+    "city": "Brainerd",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BRE",
+    "city": "Bremen",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BRI",
+    "city": "Bari",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BRM",
+    "city": "Barquisimeto",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BRN",
+    "city": "Bern",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BRO",
+    "city": "Brownsville",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BRS",
+    "city": "Bristol",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BRU",
+    "city": "Brussels",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BRW",
+    "city": "Barrow",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BSB",
+    "city": "Brasilia",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BSL",
+    "city": "Basle",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BSR",
+    "city": "Basra",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BTL",
+    "city": "Battle Creek",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BTM",
+    "city": "Butte",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BTR",
+    "city": "Baton Rouge",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BTS",
+    "city": "Bratislava",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BTT",
+    "city": "Bettles",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BTU",
+    "city": "Bintulu",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BTV",
+    "city": "Burlington",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BUD",
+    "city": "Budapest",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BUE",
+    "city": "Buenos Aires",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BUH",
+    "city": "Bucharest",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BUQ",
+    "city": "Bulawayo",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BUR",
+    "city": "Burbank",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BUZ",
+    "city": "Bushehr",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BVB",
+    "city": "Boa Vista",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BWI",
+    "city": "Baltimore",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BWN",
+    "city": "Bandar Seri Bagawan",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BXO",
+    "city": "Bissau",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BZE",
+    "city": "Belize",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BZN",
+    "city": "Bozeman",
+    "country": "Unknown"
+  },
+  {
+    "iata": "BZV",
+    "city": "Brazzaville",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CAE",
+    "city": "Columbia",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CAI",
+    "city": "Cairo",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CAJ",
+    "city": "Canaima",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CAK",
+    "city": "Akron/Canton",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CAN",
+    "city": "Guangzhou",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CAS",
+    "city": "Casablanca, Anfa",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CAY",
+    "city": "Cayenne",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CBB",
+    "city": "Cochabamba",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CCJ",
+    "city": "Calicut",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CCP",
+    "city": "Concepcion",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CCS",
+    "city": "Caracas",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CCU",
+    "city": "Calcutta",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CDB",
+    "city": "Cold Bay",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CDC",
+    "city": "Cedar City",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CDG",
+    "city": "Paris, Charles de Gaulle",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CDV",
+    "city": "Cordova",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CEB",
+    "city": "Cebu",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CGB",
+    "city": "Cuiaba",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CGH",
+    "city": "Sao Paulo, Congonhas",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CGI",
+    "city": "Cape Girardeau",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CGK",
+    "city": "Jakarta",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CGN",
+    "city": "Cologne",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CGO",
+    "city": "Zhengzhou",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CGP",
+    "city": "Chittagong",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CGQ",
+    "city": "Changchun",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CGR",
+    "city": "Campo Grande",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CGX",
+    "city": "Chicago, Merill C. Meigs",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CHA",
+    "city": "Chattanooga",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CHC",
+    "city": "Christchurch",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CHH",
+    "city": "Chachapoyas",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CHI",
+    "city": "Chicago",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CHS",
+    "city": "Charleston",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CHU",
+    "city": "Chuathbaluk",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CIA",
+    "city": "Rome, Clampino",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CIC",
+    "city": "Chico",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CID",
+    "city": "Cedar Rapids / Iowa City",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CIK",
+    "city": "Chalkyits",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CIX",
+    "city": "Chiclayo",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CJA",
+    "city": "Cajamarca",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CJC",
+    "city": "Calama",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CJU",
+    "city": "Cheju",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CKD",
+    "city": "Crokked Creek",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CKG",
+    "city": "Chongqing",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CKY",
+    "city": "Conakry",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CLE",
+    "city": "Cleveland",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CLL",
+    "city": "College Station",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CLO",
+    "city": "Cali",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CLQ",
+    "city": "Colima",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CLT",
+    "city": "Charlotte",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CLY",
+    "city": "Calvi",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CMB",
+    "city": "Colombo",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CME",
+    "city": "Ciudad Del Carmen",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CMH",
+    "city": "Columbus",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CMI",
+    "city": "Champaign",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CMN",
+    "city": "Casablanca, Mohamed V",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CNM",
+    "city": "Carlsbad",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CNS",
+    "city": "Cairns",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CNX",
+    "city": "Chiang Mai",
+    "country": "Unknown"
+  },
+  {
+    "iata": "COE",
+    "city": "Coeur D\u2019Alene",
+    "country": "Unknown"
+  },
+  {
+    "iata": "COK",
+    "city": "Cochin",
+    "country": "Unknown"
+  },
+  {
+    "iata": "COO",
+    "city": "Cotonou",
+    "country": "Unknown"
+  },
+  {
+    "iata": "COS",
+    "city": "Colorado Springs",
+    "country": "Unknown"
+  },
+  {
+    "iata": "COU",
+    "city": "Columbia",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CPH",
+    "city": "Copenhagen",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CPO",
+    "city": "Copiapo",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CPR",
+    "city": "Casper",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CPT",
+    "city": "Cape Town",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CPX",
+    "city": "Culebra",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CRP",
+    "city": "Corpus Christie",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CSG",
+    "city": "Columbus",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CSX",
+    "city": "Changsha",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CTA",
+    "city": "Catania",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CTG",
+    "city": "Cartagena",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CTM",
+    "city": "Chetumal",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CTS",
+    "city": "Sapporo, Chitose",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CTU",
+    "city": "Chengdu",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CUE",
+    "city": "Cuenca",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CUL",
+    "city": "Culiacan",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CUM",
+    "city": "Cumana",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CUN",
+    "city": "Cancun",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CUP",
+    "city": "Carupano",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CUR",
+    "city": "Curacao",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CUU",
+    "city": "Chihuahua",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CUX",
+    "city": "Corpus Christie, Cuddihy Field",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CUZ",
+    "city": "Cusco",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CVG",
+    "city": "Cincinnati",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CWB",
+    "city": "Curitiba",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CWL",
+    "city": "Cardiff",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CYF",
+    "city": "Chefornak",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CZA",
+    "city": "Chichenitza",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CZE",
+    "city": "Coro",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CZM",
+    "city": "Cozumel",
+    "country": "Unknown"
+  },
+  {
+    "iata": "CZS",
+    "city": "Cruzeiro Do Sul",
+    "country": "Unknown"
+  },
+  {
+    "iata": "DAB",
+    "city": "Daytona Beach",
+    "country": "Unknown"
+  },
+  {
+    "iata": "DAC",
+    "city": "Dhaka",
+    "country": "Unknown"
+  },
+  {
+    "iata": "DAL",
+    "city": "Dallas, Love Field",
+    "country": "Unknown"
+  },
+  {
+    "iata": "DAM",
+    "city": "Damascus",
+    "country": "Unknown"
+  },
+  {
+    "iata": "DAR",
+    "city": "Dar Es Salaam",
+    "country": "Unknown"
+  },
+  {
+    "iata": "DAY",
+    "city": "Dayton",
+    "country": "Unknown"
+  },
+  {
+    "iata": "DCA",
+    "city": "Washington, National",
+    "country": "Unknown"
+  },
+  {
+    "iata": "DCF",
+    "city": "Dominica, Cane Field",
+    "country": "Unknown"
+  },
+  {
+    "iata": "DEC",
+    "city": "Decatur",
+    "country": "Unknown"
+  },
+  {
+    "iata": "DEL",
+    "city": "Delhi",
+    "country": "Unknown"
+  },
+  {
+    "iata": "DEN",
+    "city": "Denver",
+    "country": "Unknown"
+  },
+  {
+    "iata": "DET",
+    "city": "Detroit City",
+    "country": "Unknown"
+  },
+  {
+    "iata": "DFW",
+    "city": "Dallas/Ft. Worth",
+    "country": "Unknown"
+  },
+  {
+    "iata": "DGO",
+    "city": "Durango",
+    "country": "Unknown"
+  },
+  {
+    "iata": "DHA",
+    "city": "Dhahran",
+    "country": "Unknown"
+  },
+  {
+    "iata": "DHN",
+    "city": "Dothan",
+    "country": "Unknown"
+  },
+  {
+    "iata": "DJE",
+    "city": "Djerba",
+    "country": "Unknown"
+  },
+  {
+    "iata": "DKR",
+    "city": "Dakar",
+    "country": "Unknown"
+  },
+  {
+    "iata": "DLA",
+    "city": "Douala",
+    "country": "Unknown"
+  },
+  {
+    "iata": "DLC",
+    "city": "Dalian",
+    "country": "Unknown"
+  },
+  {
+    "iata": "DLG",
+    "city": "Dillingham",
+    "country": "Unknown"
+  },
+  {
+    "iata": "DLH",
+    "city": "Duluth",
+    "country": "Unknown"
+  },
+  {
+    "iata": "DLM",
+    "city": "Dalaman",
+    "country": "Unknown"
+  },
+  {
+    "iata": "DME",
+    "city": "Moscow, Domodedovo",
+    "country": "Unknown"
+  },
+  {
+    "iata": "DNV",
+    "city": "Danville",
+    "country": "Unknown"
+  },
+  {
+    "iata": "DOH",
+    "city": "Doha",
+    "country": "Unknown"
+  },
+  {
+    "iata": "DOM",
+    "city": "Dominica, Melville Hall",
+    "country": "Unknown"
+  },
+  {
+    "iata": "DPS",
+    "city": "Bali Island, Denpasar",
+    "country": "Unknown"
+  },
+  {
+    "iata": "DRO",
+    "city": "Durango",
+    "country": "Unknown"
+  },
+  {
+    "iata": "DRS",
+    "city": "Dresden",
+    "country": "Unknown"
+  },
+  {
+    "iata": "DRW",
+    "city": "Darwin",
+    "country": "Unknown"
+  },
+  {
+    "iata": "DSM",
+    "city": "Des Moines",
+    "country": "Unknown"
+  },
+  {
+    "iata": "DTA",
+    "city": "Delta",
+    "country": "Unknown"
+  },
+  {
+    "iata": "DTT",
+    "city": "Detroit",
+    "country": "Unknown"
+  },
+  {
+    "iata": "DTW",
+    "city": "Detroit",
+    "country": "Unknown"
+  },
+  {
+    "iata": "DUB",
+    "city": "Dublin",
+    "country": "Unknown"
+  },
+  {
+    "iata": "DUR",
+    "city": "Durban",
+    "country": "Unknown"
+  },
+  {
+    "iata": "DUS",
+    "city": "Dusseldorf",
+    "country": "Unknown"
+  },
+  {
+    "iata": "DUT",
+    "city": "Dutch Harbor",
+    "country": "Unknown"
+  },
+  {
+    "iata": "DVO",
+    "city": "Davao",
+    "country": "Unknown"
+  },
+  {
+    "iata": "DXB",
+    "city": "Dubai",
+    "country": "Unknown"
+  },
+  {
+    "iata": "EAT",
+    "city": "Wenatchee",
+    "country": "Unknown"
+  },
+  {
+    "iata": "EBB",
+    "city": "Entebbe",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ECN",
+    "city": "Ercan",
+    "country": "Unknown"
+  },
+  {
+    "iata": "EDI",
+    "city": "Edinburgh",
+    "country": "Unknown"
+  },
+  {
+    "iata": "EEK",
+    "city": "Eek",
+    "country": "Unknown"
+  },
+  {
+    "iata": "EIN",
+    "city": "Eindhoven",
+    "country": "Unknown"
+  },
+  {
+    "iata": "EIS",
+    "city": "Beef Island, Tortola",
+    "country": "Unknown"
+  },
+  {
+    "iata": "EKO",
+    "city": "Elko",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ELM",
+    "city": "Corning, Elmira",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ELP",
+    "city": "El Paso",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ELQ",
+    "city": "Gassim",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ELS",
+    "city": "East London",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ELY",
+    "city": "Ely",
+    "country": "Unknown"
+  },
+  {
+    "iata": "EMA",
+    "city": "East Midlands",
+    "country": "Unknown"
+  },
+  {
+    "iata": "EMB",
+    "city": "San Francisco, Embarkadero",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ENA",
+    "city": "Kenai",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ENC",
+    "city": "Nancy",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ENS",
+    "city": "Enschede",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ERF",
+    "city": "Erfurt",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ERI",
+    "city": "Erie",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ERS",
+    "city": "Windhoek, Eros",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ESB",
+    "city": "Ankara, Esenboga",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ESF",
+    "city": "Alexandria",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ESR",
+    "city": "El Salvador",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ETH",
+    "city": "Elat",
+    "country": "Unknown"
+  },
+  {
+    "iata": "EUG",
+    "city": "Eugene",
+    "country": "Unknown"
+  },
+  {
+    "iata": "EVE",
+    "city": "Evenes",
+    "country": "Unknown"
+  },
+  {
+    "iata": "EVN",
+    "city": "Erevan",
+    "country": "Unknown"
+  },
+  {
+    "iata": "EVV",
+    "city": "Evansville",
+    "country": "Unknown"
+  },
+  {
+    "iata": "EWB",
+    "city": "Fall River, New Bedford",
+    "country": "Unknown"
+  },
+  {
+    "iata": "EWN",
+    "city": "New Bern",
+    "country": "Unknown"
+  },
+  {
+    "iata": "EWR",
+    "city": "New York, Newark",
+    "country": "Unknown"
+  },
+  {
+    "iata": "EXT",
+    "city": "Exeter",
+    "country": "Unknown"
+  },
+  {
+    "iata": "EZE",
+    "city": "Buenos Aires, Ministro Pistarini",
+    "country": "Unknown"
+  },
+  {
+    "iata": "FAI",
+    "city": "Fairbanks",
+    "country": "Unknown"
+  },
+  {
+    "iata": "FAO",
+    "city": "Faro",
+    "country": "Unknown"
+  },
+  {
+    "iata": "FAR",
+    "city": "Fargo",
+    "country": "Unknown"
+  },
+  {
+    "iata": "FAT",
+    "city": "Fresno",
+    "country": "Unknown"
+  },
+  {
+    "iata": "FAY",
+    "city": "Fayetteville",
+    "country": "Unknown"
+  },
+  {
+    "iata": "FBM",
+    "city": "Lubumbashi",
+    "country": "Unknown"
+  },
+  {
+    "iata": "FBU",
+    "city": "Oslo, Fornebu Airport",
+    "country": "Unknown"
+  },
+  {
+    "iata": "FCA",
+    "city": "Kalispell",
+    "country": "Unknown"
+  },
+  {
+    "iata": "FCO",
+    "city": "Rome, Fiumicino",
+    "country": "Unknown"
+  },
+  {
+    "iata": "FDF",
+    "city": "Ft de France",
+    "country": "Unknown"
+  },
+  {
+    "iata": "FDH",
+    "city": "Friedrichshafen",
+    "country": "Unknown"
+  },
+  {
+    "iata": "FEZ",
+    "city": "Fez",
+    "country": "Unknown"
+  },
+  {
+    "iata": "FIH",
+    "city": "Kinshasa",
+    "country": "Unknown"
+  },
+  {
+    "iata": "FIL",
+    "city": "Fillmore",
+    "country": "Unknown"
+  },
+  {
+    "iata": "FJR",
+    "city": "Al-Fujairah",
+    "country": "Unknown"
+  },
+  {
+    "iata": "FKI",
+    "city": "Kisangani",
+    "country": "Unknown"
+  },
+  {
+    "iata": "FLG",
+    "city": "Flagstaff",
+    "country": "Unknown"
+  },
+  {
+    "iata": "FLR",
+    "city": "Florence",
+    "country": "Unknown"
+  },
+  {
+    "iata": "FMO",
+    "city": "Muenster",
+    "country": "Unknown"
+  },
+  {
+    "iata": "FMY",
+    "city": "Fort Myers",
+    "country": "Unknown"
+  },
+  {
+    "iata": "FNA",
+    "city": "Freetown",
+    "country": "Unknown"
+  },
+  {
+    "iata": "FNC",
+    "city": "Funchal",
+    "country": "Unknown"
+  },
+  {
+    "iata": "FNI",
+    "city": "Nimes",
+    "country": "Unknown"
+  },
+  {
+    "iata": "FNJ",
+    "city": "Pyongyang",
+    "country": "Unknown"
+  },
+  {
+    "iata": "FNT",
+    "city": "Flint",
+    "country": "Unknown"
+  },
+  {
+    "iata": "FOC",
+    "city": "Fuzhou",
+    "country": "Unknown"
+  },
+  {
+    "iata": "FOR",
+    "city": "Fortaleza",
+    "country": "Unknown"
+  },
+  {
+    "iata": "FPO",
+    "city": "Freeport",
+    "country": "Unknown"
+  },
+  {
+    "iata": "FPR",
+    "city": "Ft Pierce",
+    "country": "Unknown"
+  },
+  {
+    "iata": "FRA",
+    "city": "Frankfurt",
+    "country": "Unknown"
+  },
+  {
+    "iata": "FRS",
+    "city": "Flores",
+    "country": "Unknown"
+  },
+  {
+    "iata": "FSD",
+    "city": "Sioux Falls",
+    "country": "Unknown"
+  },
+  {
+    "iata": "FSM",
+    "city": "Ft Smith",
+    "country": "Unknown"
+  },
+  {
+    "iata": "FUK",
+    "city": "Fukuoka",
+    "country": "Unknown"
+  },
+  {
+    "iata": "FWA",
+    "city": "Ft Wayne",
+    "country": "Unknown"
+  },
+  {
+    "iata": "FYU",
+    "city": "Ft Yukon",
+    "country": "Unknown"
+  },
+  {
+    "iata": "FYV",
+    "city": "Fayetteville",
+    "country": "Unknown"
+  },
+  {
+    "iata": "GAJ",
+    "city": "Yamagata",
+    "country": "Unknown"
+  },
+  {
+    "iata": "GAL",
+    "city": "Galena",
+    "country": "Unknown"
+  },
+  {
+    "iata": "GAU",
+    "city": "Gauhati",
+    "country": "Unknown"
+  },
+  {
+    "iata": "GCI",
+    "city": "Guernsey",
+    "country": "Unknown"
+  },
+  {
+    "iata": "GCM",
+    "city": "Grand Cayman",
+    "country": "Unknown"
+  },
+  {
+    "iata": "GDL",
+    "city": "Guadalajara",
+    "country": "Unknown"
+  },
+  {
+    "iata": "GDT",
+    "city": "Grand Turk",
+    "country": "Unknown"
+  },
+  {
+    "iata": "GDX",
+    "city": "Magadan",
+    "country": "Unknown"
+  },
+  {
+    "iata": "GEA",
+    "city": "Noumea, Magenta",
+    "country": "Unknown"
+  },
+  {
+    "iata": "GEN",
+    "city": "Oslo, Gardermoen",
+    "country": "Unknown"
+  },
+  {
+    "iata": "GFK",
+    "city": "Grand Fork",
+    "country": "Unknown"
+  },
+  {
+    "iata": "GGG",
+    "city": "Gladewater, Longview",
+    "country": "Unknown"
+  },
+  {
+    "iata": "GIG",
+    "city": "Rio de Janeiro, Internacional",
+    "country": "Unknown"
+  },
+  {
+    "iata": "GKA",
+    "city": "Goroka",
+    "country": "Unknown"
+  },
+  {
+    "iata": "GLA",
+    "city": "Glasgow",
+    "country": "Unknown"
+  },
+  {
+    "iata": "GLH",
+    "city": "Greenville",
+    "country": "Unknown"
+  },
+  {
+    "iata": "GMA",
+    "city": "Gemena",
+    "country": "Unknown"
+  },
+  {
+    "iata": "GNB",
+    "city": "Grenoble",
+    "country": "Unknown"
+  },
+  {
+    "iata": "GND",
+    "city": "Grenada",
+    "country": "Unknown"
+  },
+  {
+    "iata": "GNU",
+    "city": "Goodnew Bay",
+    "country": "Unknown"
+  },
+  {
+    "iata": "GNV",
+    "city": "Gainesvile",
+    "country": "Unknown"
+  },
+  {
+    "iata": "GOA",
+    "city": "Genoa",
+    "country": "Unknown"
+  },
+  {
+    "iata": "GOM",
+    "city": "Goma",
+    "country": "Unknown"
+  },
+  {
+    "iata": "GOT",
+    "city": "Gothenburg",
+    "country": "Unknown"
+  },
+  {
+    "iata": "GOU",
+    "city": "Garoua",
+    "country": "Unknown"
+  },
+  {
+    "iata": "GPT",
+    "city": "Gulfport",
+    "country": "Unknown"
+  },
+  {
+    "iata": "GRB",
+    "city": "Green Bay",
+    "country": "Unknown"
+  },
+  {
+    "iata": "GRQ",
+    "city": "Groningen",
+    "country": "Unknown"
+  },
+  {
+    "iata": "GRR",
+    "city": "Grand Rapids",
+    "country": "Unknown"
+  },
+  {
+    "iata": "GRU",
+    "city": "Sao Paulo, Guarulhos",
+    "country": "Unknown"
+  },
+  {
+    "iata": "GRZ",
+    "city": "Graz",
+    "country": "Unknown"
+  },
+  {
+    "iata": "GSO",
+    "city": "Greensboro",
+    "country": "Unknown"
+  },
+  {
+    "iata": "GSP",
+    "city": "Greenville",
+    "country": "Unknown"
+  },
+  {
+    "iata": "GTF",
+    "city": "Great Falls",
+    "country": "Unknown"
+  },
+  {
+    "iata": "GUA",
+    "city": "Guatemala City",
+    "country": "Unknown"
+  },
+  {
+    "iata": "GUC",
+    "city": "Gunnison",
+    "country": "Unknown"
+  },
+  {
+    "iata": "GUM",
+    "city": "Guam",
+    "country": "Unknown"
+  },
+  {
+    "iata": "GVA",
+    "city": "Geneva",
+    "country": "Unknown"
+  },
+  {
+    "iata": "GXQ",
+    "city": "Coyhaique",
+    "country": "Unknown"
+  },
+  {
+    "iata": "GYE",
+    "city": "Guayaquil",
+    "country": "Unknown"
+  },
+  {
+    "iata": "HAG",
+    "city": "Hagen",
+    "country": "Unknown"
+  },
+  {
+    "iata": "HAH",
+    "city": "Moroni, Hahaya International",
+    "country": "Unknown"
+  },
+  {
+    "iata": "HAJ",
+    "city": "Hanover",
+    "country": "Unknown"
+  },
+  {
+    "iata": "HAK",
+    "city": "Haikou",
+    "country": "Unknown"
+  },
+  {
+    "iata": "HAM",
+    "city": "Hamburg",
+    "country": "Unknown"
+  },
+  {
+    "iata": "HAN",
+    "city": "Hanoi",
+    "country": "Unknown"
+  },
+  {
+    "iata": "HAR",
+    "city": "Harrisburg",
+    "country": "Unknown"
+  },
+  {
+    "iata": "HAS",
+    "city": "Hail",
+    "country": "Unknown"
+  },
+  {
+    "iata": "HAU",
+    "city": "Haugesund",
+    "country": "Unknown"
+  },
+  {
+    "iata": "HAV",
+    "city": "Havana",
+    "country": "Unknown"
+  },
+  {
+    "iata": "HCR",
+    "city": "Holy Cross",
+    "country": "Unknown"
+  },
+  {
+    "iata": "HDY",
+    "city": "Hat Yai",
+    "country": "Unknown"
+  },
+  {
+    "iata": "HEL",
+    "city": "Helsinki",
+    "country": "Unknown"
+  },
+  {
+    "iata": "HER",
+    "city": "Heraklion",
+    "country": "Unknown"
+  },
+  {
+    "iata": "HET",
+    "city": "Hohhot",
+    "country": "Unknown"
+  },
+  {
+    "iata": "HFD",
+    "city": "Hartford",
+    "country": "Unknown"
+  },
+  {
+    "iata": "HFE",
+    "city": "Hefei",
+    "country": "Unknown"
+  },
+  {
+    "iata": "HGH",
+    "city": "Hangzhou",
+    "country": "Unknown"
+  },
+  {
+    "iata": "HGS",
+    "city": "Freetown, Hastings",
+    "country": "Unknown"
+  },
+  {
+    "iata": "HGU",
+    "city": "Mount Hagen",
+    "country": "Unknown"
+  },
+  {
+    "iata": "HIB",
+    "city": "Chisholm",
+    "country": "Unknown"
+  },
+  {
+    "iata": "HIJ",
+    "city": "Hiroshima",
+    "country": "Unknown"
+  },
+  {
+    "iata": "HKD",
+    "city": "Hakodate",
+    "country": "Unknown"
+  },
+  {
+    "iata": "HKG",
+    "city": "Hong Kong",
+    "country": "Unknown"
+  },
+  {
+    "iata": "HKN",
+    "city": "Hoskins",
+    "country": "Unknown"
+  },
+  {
+    "iata": "HKT",
+    "city": "Phuket",
+    "country": "Unknown"
+  },
+  {
+    "iata": "HLN",
+    "city": "Helena",
+    "country": "Unknown"
+  },
+  {
+    "iata": "HLP",
+    "city": "Jakarta, Halim Perdana Kusuma",
+    "country": "Unknown"
+  },
+  {
+    "iata": "HMO",
+    "city": "Hermosillo",
+    "country": "Unknown"
+  },
+  {
+    "iata": "HND",
+    "city": "Tokyo, Haneda",
+    "country": "Unknown"
+  },
+  {
+    "iata": "HNL",
+    "city": "Honolulu",
+    "country": "Unknown"
+  },
+  {
+    "iata": "HOM",
+    "city": "Homer",
+    "country": "Unknown"
+  },
+  {
+    "iata": "HOU",
+    "city": "Houston",
+    "country": "Unknown"
+  },
+  {
+    "iata": "HPB",
+    "city": "Hooper Bay",
+    "country": "Unknown"
+  },
+  {
+    "iata": "HPN",
+    "city": "Westchester",
+    "country": "Unknown"
+  },
+  {
+    "iata": "HRB",
+    "city": "Harbin",
+    "country": "Unknown"
+  },
+  {
+    "iata": "HRE",
+    "city": "Harare",
+    "country": "Unknown"
+  },
+  {
+    "iata": "HRL",
+    "city": "Harlingen",
+    "country": "Unknown"
+  },
+  {
+    "iata": "HSL",
+    "city": "Huslia",
+    "country": "Unknown"
+  },
+  {
+    "iata": "HSV",
+    "city": "Huntsville",
+    "country": "Unknown"
+  },
+  {
+    "iata": "HTS",
+    "city": "Ashland, Huntington",
+    "country": "Unknown"
+  },
+  {
+    "iata": "HUS",
+    "city": "Hughes",
+    "country": "Unknown"
+  },
+  {
+    "iata": "HUX",
+    "city": "Sta Cruz Huat",
+    "country": "Unknown"
+  },
+  {
+    "iata": "HUY",
+    "city": "Humberside",
+    "country": "Unknown"
+  },
+  {
+    "iata": "HYA",
+    "city": "Hyannis",
+    "country": "Unknown"
+  },
+  {
+    "iata": "HYD",
+    "city": "Hyderabad",
+    "country": "Unknown"
+  },
+  {
+    "iata": "IAD",
+    "city": "Washington, Dulles International",
+    "country": "Unknown"
+  },
+  {
+    "iata": "IAG",
+    "city": "Niagara Falls",
+    "country": "Unknown"
+  },
+  {
+    "iata": "IAH",
+    "city": "Houston, Intercontinental",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ICT",
+    "city": "Wichita",
+    "country": "Unknown"
+  },
+  {
+    "iata": "IEV",
+    "city": "Kiev",
+    "country": "Unknown"
+  },
+  {
+    "iata": "IFN",
+    "city": "Isfahan",
+    "country": "Unknown"
+  },
+  {
+    "iata": "IGL",
+    "city": "Izmir, Cigli Military",
+    "country": "Unknown"
+  },
+  {
+    "iata": "IGU",
+    "city": "Iguassu Falls",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ILE",
+    "city": "Killeen",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ILI",
+    "city": "Iliamna",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ILM",
+    "city": "Wilmington",
+    "country": "Unknown"
+  },
+  {
+    "iata": "IMT",
+    "city": "Iron Mountain",
+    "country": "Unknown"
+  },
+  {
+    "iata": "INC",
+    "city": "Yinchuang",
+    "country": "Unknown"
+  },
+  {
+    "iata": "IND",
+    "city": "Indianapolis",
+    "country": "Unknown"
+  },
+  {
+    "iata": "INI",
+    "city": "Nis",
+    "country": "Unknown"
+  },
+  {
+    "iata": "INN",
+    "city": "Innsbruck",
+    "country": "Unknown"
+  },
+  {
+    "iata": "IPC",
+    "city": "Easter Island",
+    "country": "Unknown"
+  },
+  {
+    "iata": "IPH",
+    "city": "Ipoh",
+    "country": "Unknown"
+  },
+  {
+    "iata": "IQQ",
+    "city": "Iquique",
+    "country": "Unknown"
+  },
+  {
+    "iata": "IRP",
+    "city": "Isiro",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ISB",
+    "city": "Islamabad",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ISC",
+    "city": "Isles of Scil, St. Mary\u2019s",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ISP",
+    "city": "Islip, Long Island Macarthur",
+    "country": "Unknown"
+  },
+  {
+    "iata": "IST",
+    "city": "Istanbul",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ITH",
+    "city": "Ithaca",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ITM",
+    "city": "Osaka, Itami",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ITO",
+    "city": "Hilo",
+    "country": "Unknown"
+  },
+  {
+    "iata": "IZM",
+    "city": "Izmir",
+    "country": "Unknown"
+  },
+  {
+    "iata": "JAC",
+    "city": "Jackson",
+    "country": "Unknown"
+  },
+  {
+    "iata": "JAI",
+    "city": "Jaipur",
+    "country": "Unknown"
+  },
+  {
+    "iata": "JAJ",
+    "city": "Atlanta, Perimeter",
+    "country": "Unknown"
+  },
+  {
+    "iata": "JAN",
+    "city": "Jackson",
+    "country": "Unknown"
+  },
+  {
+    "iata": "JAO",
+    "city": "Atlanta, Beaver Ruin",
+    "country": "Unknown"
+  },
+  {
+    "iata": "JAX",
+    "city": "Jacksonville",
+    "country": "Unknown"
+  },
+  {
+    "iata": "JDM",
+    "city": "Miami, Downtown Heliport",
+    "country": "Unknown"
+  },
+  {
+    "iata": "JED",
+    "city": "Jeddah",
+    "country": "Unknown"
+  },
+  {
+    "iata": "JER",
+    "city": "Jersey",
+    "country": "Unknown"
+  },
+  {
+    "iata": "JFK",
+    "city": "New York, John F. Kennedy",
+    "country": "Unknown"
+  },
+  {
+    "iata": "JHB",
+    "city": "Johor Bahru",
+    "country": "Unknown"
+  },
+  {
+    "iata": "JIB",
+    "city": "Djibouti",
+    "country": "Unknown"
+  },
+  {
+    "iata": "JJI",
+    "city": "Juanjui",
+    "country": "Unknown"
+  },
+  {
+    "iata": "JKG",
+    "city": "Jonkoping",
+    "country": "Unknown"
+  },
+  {
+    "iata": "JKT",
+    "city": "Jakarta",
+    "country": "Unknown"
+  },
+  {
+    "iata": "JNB",
+    "city": "Johannesburg",
+    "country": "Unknown"
+  },
+  {
+    "iata": "JNU",
+    "city": "Juneau",
+    "country": "Unknown"
+  },
+  {
+    "iata": "JON",
+    "city": "Johnston Island",
+    "country": "Unknown"
+  },
+  {
+    "iata": "JRO",
+    "city": "Kilimanjaro",
+    "country": "Unknown"
+  },
+  {
+    "iata": "JUB",
+    "city": "Juba",
+    "country": "Unknown"
+  },
+  {
+    "iata": "JUL",
+    "city": "Juliaca",
+    "country": "Unknown"
+  },
+  {
+    "iata": "JVL",
+    "city": "Janesville",
+    "country": "Unknown"
+  },
+  {
+    "iata": "KAD",
+    "city": "Kaduna",
+    "country": "Unknown"
+  },
+  {
+    "iata": "KAH",
+    "city": "Melbourne, City Heliport",
+    "country": "Unknown"
+  },
+  {
+    "iata": "KAL",
+    "city": "Kaltag",
+    "country": "Unknown"
+  },
+  {
+    "iata": "KAN",
+    "city": "Kano",
+    "country": "Unknown"
+  },
+  {
+    "iata": "KBL",
+    "city": "Kabul",
+    "country": "Unknown"
+  },
+  {
+    "iata": "KBP",
+    "city": "Kiev, Borispol",
+    "country": "Unknown"
+  },
+  {
+    "iata": "KCH",
+    "city": "Kuching",
+    "country": "Unknown"
+  },
+  {
+    "iata": "KCL",
+    "city": "Chignik",
+    "country": "Unknown"
+  },
+  {
+    "iata": "KCZ",
+    "city": "Kochi",
+    "country": "Unknown"
+  },
+  {
+    "iata": "KER",
+    "city": "Kerman",
+    "country": "Unknown"
+  },
+  {
+    "iata": "KFP",
+    "city": "False Pass",
+    "country": "Unknown"
+  },
+  {
+    "iata": "KGA",
+    "city": "Kananga",
+    "country": "Unknown"
+  },
+  {
+    "iata": "KGF",
+    "city": "Karaganda",
+    "country": "Unknown"
+  },
+  {
+    "iata": "KGL",
+    "city": "Kigali",
+    "country": "Unknown"
+  },
+  {
+    "iata": "KGX",
+    "city": "Grayling",
+    "country": "Unknown"
+  },
+  {
+    "iata": "KHH",
+    "city": "Kaohsiung",
+    "country": "Unknown"
+  },
+  {
+    "iata": "KHI",
+    "city": "Karachi",
+    "country": "Unknown"
+  },
+  {
+    "iata": "KHN",
+    "city": "Nanchang",
+    "country": "Unknown"
+  },
+  {
+    "iata": "KHV",
+    "city": "Khabarovsk",
+    "country": "Unknown"
+  },
+  {
+    "iata": "KIB",
+    "city": "Ivanoff Bay",
+    "country": "Unknown"
+  },
+  {
+    "iata": "KIJ",
+    "city": "Niigata",
+    "country": "Unknown"
+  },
+  {
+    "iata": "KIM",
+    "city": "Kimberley",
+    "country": "Unknown"
+  },
+  {
+    "iata": "KIN",
+    "city": "Kingston",
+    "country": "Unknown"
+  },
+  {
+    "iata": "KIX",
+    "city": "Osaka, Kansai International",
+    "country": "Unknown"
+  },
+  {
+    "iata": "KJA",
+    "city": "Krasnoyarsk",
+    "country": "Unknown"
+  },
+  {
+    "iata": "KKH",
+    "city": "Kongiganak",
+    "country": "Unknown"
+  },
+  {
+    "iata": "KKI",
+    "city": "Akiachak",
+    "country": "Unknown"
+  },
+  {
+    "iata": "KLG",
+    "city": "Kalskag",
+    "country": "Unknown"
+  },
+  {
+    "iata": "KLU",
+    "city": "Klagenfurt",
+    "country": "Unknown"
+  },
+  {
+    "iata": "KMG",
+    "city": "Kunming",
+    "country": "Unknown"
+  },
+  {
+    "iata": "KMI",
+    "city": "Miyazaki",
+    "country": "Unknown"
+  },
+  {
+    "iata": "KMJ",
+    "city": "Kumamoto",
+    "country": "Unknown"
+  },
+  {
+    "iata": "KMQ",
+    "city": "Komatsu",
+    "country": "Unknown"
+  },
+  {
+    "iata": "KNB",
+    "city": "Kanab",
+    "country": "Unknown"
+  },
+  {
+    "iata": "KND",
+    "city": "Kindu",
+    "country": "Unknown"
+  },
+  {
+    "iata": "KOA",
+    "city": "Kailua",
+    "country": "Unknown"
+  },
+  {
+    "iata": "KOJ",
+    "city": "Kagoshima",
+    "country": "Unknown"
+  },
+  {
+    "iata": "KPN",
+    "city": "Kipnuk",
+    "country": "Unknown"
+  },
+  {
+    "iata": "KPV",
+    "city": "Perryville",
+    "country": "Unknown"
+  },
+  {
+    "iata": "KRN",
+    "city": "Kiruna",
+    "country": "Unknown"
+  },
+  {
+    "iata": "KRP",
+    "city": "Karup",
+    "country": "Unknown"
+  },
+  {
+    "iata": "KRS",
+    "city": "Kristiansand",
+    "country": "Unknown"
+  },
+  {
+    "iata": "KSA",
+    "city": "Kosrae",
+    "country": "Unknown"
+  },
+  {
+    "iata": "KSF",
+    "city": "Kassel",
+    "country": "Unknown"
+  },
+  {
+    "iata": "KSM",
+    "city": "St. Mary\u2019s",
+    "country": "Unknown"
+  },
+  {
+    "iata": "KTM",
+    "city": "Kathmandu",
+    "country": "Unknown"
+  },
+  {
+    "iata": "KTN",
+    "city": "Ketchikan",
+    "country": "Unknown"
+  },
+  {
+    "iata": "KTP",
+    "city": "Kingston, Tinson",
+    "country": "Unknown"
+  },
+  {
+    "iata": "KUH",
+    "city": "Kushiro",
+    "country": "Unknown"
+  },
+  {
+    "iata": "KUK",
+    "city": "Kasigluk",
+    "country": "Unknown"
+  },
+  {
+    "iata": "KUL",
+    "city": "Kuala Lumpur",
+    "country": "Unknown"
+  },
+  {
+    "iata": "KUO",
+    "city": "Kuopio",
+    "country": "Unknown"
+  },
+  {
+    "iata": "KVC",
+    "city": "King Cover",
+    "country": "Unknown"
+  },
+  {
+    "iata": "KWA",
+    "city": "Kwajalein",
+    "country": "Unknown"
+  },
+  {
+    "iata": "KWE",
+    "city": "Guiyang",
+    "country": "Unknown"
+  },
+  {
+    "iata": "KWI",
+    "city": "Kuwait",
+    "country": "Unknown"
+  },
+  {
+    "iata": "KWJ",
+    "city": "Kwangju",
+    "country": "Unknown"
+  },
+  {
+    "iata": "KWK",
+    "city": "Kwigillingok",
+    "country": "Unknown"
+  },
+  {
+    "iata": "KWL",
+    "city": "Guilin",
+    "country": "Unknown"
+  },
+  {
+    "iata": "KWN",
+    "city": "Quinhagak",
+    "country": "Unknown"
+  },
+  {
+    "iata": "KWT",
+    "city": "Kwethluk",
+    "country": "Unknown"
+  },
+  {
+    "iata": "KYU",
+    "city": "Koyukuk",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LAD",
+    "city": "Luanda",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LAE",
+    "city": "Lae",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LAN",
+    "city": "Lansing",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LAP",
+    "city": "La Paz Mex",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LAS",
+    "city": "Las Vegas",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LAW",
+    "city": "Lawton",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LAX",
+    "city": "Los Angeles",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LBA",
+    "city": "Leeds",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LBB",
+    "city": "Lubbock",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LBG",
+    "city": "Paris, Le Bourget",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LBU",
+    "city": "Labuan",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LBV",
+    "city": "Libreville",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LCA",
+    "city": "Larnaca",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LCE",
+    "city": "La Ceiba",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LCH",
+    "city": "Lake Charles",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LCY",
+    "city": "London, City Airport",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LDE",
+    "city": "Lourdes/Tarbes",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LDU",
+    "city": "Lahad Datu",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LEB",
+    "city": "White River",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LED",
+    "city": "St. Petersburg",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LEH",
+    "city": "Le Havre",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LEJ",
+    "city": "Leipzig",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LER",
+    "city": "Leinster",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LFT",
+    "city": "Lafayette",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LFW",
+    "city": "Lome",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LGA",
+    "city": "New York, La Guardia",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LGB",
+    "city": "Long Beach",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LGG",
+    "city": "Liege",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LGK",
+    "city": "Langkawi",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LGW",
+    "city": "London, Gatwick",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LHE",
+    "city": "Lahore",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LHR",
+    "city": "London, Heathrow",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LHW",
+    "city": "Lanzhou",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LIG",
+    "city": "Limoges",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LIH",
+    "city": "Kauai Is",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LIL",
+    "city": "Lille",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LIM",
+    "city": "Lima",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LIN",
+    "city": "Milan, Linate",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LIS",
+    "city": "Lisbon",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LIT",
+    "city": "Little Rock",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LJU",
+    "city": "Ljubljana",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LKO",
+    "city": "Lucknow",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LLA",
+    "city": "Lulea",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LLW",
+    "city": "Lilongwe",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LMM",
+    "city": "Los Mochis",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LNK",
+    "city": "Lincoln",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LNY",
+    "city": "Lanai City",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LNZ",
+    "city": "Linz",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LOB",
+    "city": "Lobito",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LON",
+    "city": "London",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LOS",
+    "city": "Lagos",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LPA",
+    "city": "Gran Canaria",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LPB",
+    "city": "La Paz",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LPL",
+    "city": "Liverpool",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LRD",
+    "city": "Laredo",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LSE",
+    "city": "La Crosse",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LSI",
+    "city": "Shetland Islands, Sumuburgh",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LSP",
+    "city": "Las Piedras",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LST",
+    "city": "Launceston",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LTN",
+    "city": "London, Luton",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LTO",
+    "city": "Loreto",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LUB",
+    "city": "Lumid Pau",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LUD",
+    "city": "Ludwigshafen",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LUG",
+    "city": "Lugano",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LUN",
+    "city": "Lusaka",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LUX",
+    "city": "Luxembourg",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LVI",
+    "city": "Livingstone",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LXA",
+    "city": "Lhasa",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LXR",
+    "city": "Luxor",
+    "country": "Unknown"
+  },
+  {
+    "iata": "LYS",
+    "city": "Lyon",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MAA",
+    "city": "Madras",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MAD",
+    "city": "Madrid",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MAF",
+    "city": "Midland",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MAJ",
+    "city": "Majuro",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MAL",
+    "city": "Malongo",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MAM",
+    "city": "Matamoros",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MAN",
+    "city": "Manchester",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MAO",
+    "city": "Manaus",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MAR",
+    "city": "Maracaibo",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MAZ",
+    "city": "Mayaguez",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MBA",
+    "city": "Mombasa",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MBJ",
+    "city": "Montego Bay",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MBS",
+    "city": "Bay City/Saginaw",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MBX",
+    "city": "Maribor",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MCG",
+    "city": "Mc Grath",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MCI",
+    "city": "Kansas City, International",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MCN",
+    "city": "Macon",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MCO",
+    "city": "Orlando",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MCT",
+    "city": "Muscat",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MDC",
+    "city": "Manado",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MDE",
+    "city": "Medellin",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MDK",
+    "city": "Mbandaka",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MDW",
+    "city": "Chicago, Midway",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MDZ",
+    "city": "Mendoza",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MEB",
+    "city": "Melbourne, Essendon",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MED",
+    "city": "Medina",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MEI",
+    "city": "Meridian",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MEL",
+    "city": "Melbourne",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MEM",
+    "city": "Memphis",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MES",
+    "city": "Medan",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MEX",
+    "city": "Mexico City",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MFE",
+    "city": "Mc Allen",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MFR",
+    "city": "Medford",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MGA",
+    "city": "Managua",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MGM",
+    "city": "Montgomery",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MHD",
+    "city": "Mashad",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MHT",
+    "city": "Manchester",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MIA",
+    "city": "Miami",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MID",
+    "city": "Merida",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MIL",
+    "city": "Milan",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MIU",
+    "city": "Maiduguri",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MJM",
+    "city": "Mbuji Mayi",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MKC",
+    "city": "Kansas City",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MKE",
+    "city": "Milwaukee",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MKG",
+    "city": "Muskegon",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MKK",
+    "city": "Hoolehua",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MKR",
+    "city": "Meekatharp",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MLA",
+    "city": "Malta",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MLB",
+    "city": "Melbourne",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MLE",
+    "city": "Male",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MLF",
+    "city": "Milford",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MLH",
+    "city": "Mulhouse",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MLI",
+    "city": "Moline",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MLL",
+    "city": "Marshall",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MLM",
+    "city": "Morelia",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MLU",
+    "city": "Monroe",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MLW",
+    "city": "Monrovia",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MMA",
+    "city": "Malmo",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MME",
+    "city": "Teesside",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MNL",
+    "city": "Manila",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MOB",
+    "city": "Mobile",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MOT",
+    "city": "Minot",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MOW",
+    "city": "Moscow",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MPB",
+    "city": "Miami, Sea Plane Base",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MPL",
+    "city": "Montpellier",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MPM",
+    "city": "Maputo",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MQT",
+    "city": "Marquette",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MRD",
+    "city": "Merida",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MRI",
+    "city": "Anchorage, Merrill Field",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MRS",
+    "city": "Marseille",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MRU",
+    "city": "Mauritius",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MRV",
+    "city": "Mineralnye",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MSL",
+    "city": "Florence",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MSN",
+    "city": "Madison",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MSO",
+    "city": "Missoula",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MSP",
+    "city": "Minneapolis",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MSQ",
+    "city": "Minsk",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MST",
+    "city": "Maastricht",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MSY",
+    "city": "New Orleans",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MTN",
+    "city": "Baltimore, Gl. Martin",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MTT",
+    "city": "Minatitlan",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MTY",
+    "city": "Monterrey",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MUC",
+    "city": "Munich",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MUN",
+    "city": "Maturin",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MVD",
+    "city": "Montevideo",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MVY",
+    "city": "Martha\u2019s Vineyard",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MWA",
+    "city": "Marion",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MXP",
+    "city": "Milan, Malpensa",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MYJ",
+    "city": "Matsuyama",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MYR",
+    "city": "Myrtle Beach",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MYU",
+    "city": "Mekoryuk",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MYY",
+    "city": "Miri",
+    "country": "Unknown"
+  },
+  {
+    "iata": "MZT",
+    "city": "Mazatlan",
+    "country": "Unknown"
+  },
+  {
+    "iata": "NAN",
+    "city": "Nadi",
+    "country": "Unknown"
+  },
+  {
+    "iata": "NAP",
+    "city": "Naples",
+    "country": "Unknown"
+  },
+  {
+    "iata": "NAS",
+    "city": "Nassau",
+    "country": "Unknown"
+  },
+  {
+    "iata": "NAT",
+    "city": "Natal",
+    "country": "Unknown"
+  },
+  {
+    "iata": "NAY",
+    "city": "Beijing, Nanyuan Airport",
+    "country": "Unknown"
+  },
+  {
+    "iata": "NBO",
+    "city": "Nairobi",
+    "country": "Unknown"
+  },
+  {
+    "iata": "NCE",
+    "city": "Nice",
+    "country": "Unknown"
+  },
+  {
+    "iata": "NCL",
+    "city": "Newcastle",
+    "country": "Unknown"
+  },
+  {
+    "iata": "NCY",
+    "city": "Annecy",
+    "country": "Unknown"
+  },
+  {
+    "iata": "NDJ",
+    "city": "N\u2019djamena",
+    "country": "Unknown"
+  },
+  {
+    "iata": "NEU",
+    "city": "Neuchatel",
+    "country": "Unknown"
+  },
+  {
+    "iata": "NGB",
+    "city": "Ningbo",
+    "country": "Unknown"
+  },
+  {
+    "iata": "NGO",
+    "city": "Nagoya",
+    "country": "Unknown"
+  },
+  {
+    "iata": "NGS",
+    "city": "Nagasaki",
+    "country": "Unknown"
+  },
+  {
+    "iata": "NGW",
+    "city": "Corpus Christie, Cabaniss Field",
+    "country": "Unknown"
+  },
+  {
+    "iata": "NIM",
+    "city": "Niamey",
+    "country": "Unknown"
+  },
+  {
+    "iata": "NKC",
+    "city": "Nouakchott",
+    "country": "Unknown"
+  },
+  {
+    "iata": "NKG",
+    "city": "Nanjing",
+    "country": "Unknown"
+  },
+  {
+    "iata": "NLD",
+    "city": "Nuevo Laredo",
+    "country": "Unknown"
+  },
+  {
+    "iata": "NME",
+    "city": "Nightmute",
+    "country": "Unknown"
+  },
+  {
+    "iata": "NNG",
+    "city": "Nanning",
+    "country": "Unknown"
+  },
+  {
+    "iata": "NOU",
+    "city": "Noumea",
+    "country": "Unknown"
+  },
+  {
+    "iata": "NRK",
+    "city": "Norrkoping",
+    "country": "Unknown"
+  },
+  {
+    "iata": "NRT",
+    "city": "Tokyo, Narita Airport",
+    "country": "Unknown"
+  },
+  {
+    "iata": "NSK",
+    "city": "Norilsk",
+    "country": "Unknown"
+  },
+  {
+    "iata": "NTE",
+    "city": "Nantes",
+    "country": "Unknown"
+  },
+  {
+    "iata": "NUE",
+    "city": "Nuremberg",
+    "country": "Unknown"
+  },
+  {
+    "iata": "NUL",
+    "city": "Nulato",
+    "country": "Unknown"
+  },
+  {
+    "iata": "NUP",
+    "city": "Nunapitchuk",
+    "country": "Unknown"
+  },
+  {
+    "iata": "NWI",
+    "city": "Norwich",
+    "country": "Unknown"
+  },
+  {
+    "iata": "NYC",
+    "city": "New York",
+    "country": "Unknown"
+  },
+  {
+    "iata": "OAK",
+    "city": "Oakland",
+    "country": "Unknown"
+  },
+  {
+    "iata": "OAX",
+    "city": "Oaxaca",
+    "country": "Unknown"
+  },
+  {
+    "iata": "OGG",
+    "city": "Kahului",
+    "country": "Unknown"
+  },
+  {
+    "iata": "OIT",
+    "city": "Oita",
+    "country": "Unknown"
+  },
+  {
+    "iata": "OKA",
+    "city": "Okinawa",
+    "country": "Unknown"
+  },
+  {
+    "iata": "OKC",
+    "city": "Oklahoma City",
+    "country": "Unknown"
+  },
+  {
+    "iata": "OKD",
+    "city": "Sapporo, Okadama",
+    "country": "Unknown"
+  },
+  {
+    "iata": "OKJ",
+    "city": "Okayama",
+    "country": "Unknown"
+  },
+  {
+    "iata": "OMA",
+    "city": "Omaha",
+    "country": "Unknown"
+  },
+  {
+    "iata": "OME",
+    "city": "Nome",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ONT",
+    "city": "Ontario",
+    "country": "Unknown"
+  },
+  {
+    "iata": "OOK",
+    "city": "Toksook Bay",
+    "country": "Unknown"
+  },
+  {
+    "iata": "OPO",
+    "city": "Porto",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ORB",
+    "city": "Orebro",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ORD",
+    "city": "Chicago, O\u2019Hare",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ORF",
+    "city": "Norfolk",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ORG",
+    "city": "Paramaribo, Zorg En Hoop",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ORK",
+    "city": "Cork",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ORN",
+    "city": "Oran",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ORY",
+    "city": "Paris, Orly",
+    "country": "Unknown"
+  },
+  {
+    "iata": "OSA",
+    "city": "Osaka",
+    "country": "Unknown"
+  },
+  {
+    "iata": "OSH",
+    "city": "Oshkosh",
+    "country": "Unknown"
+  },
+  {
+    "iata": "OSI",
+    "city": "Osijek",
+    "country": "Unknown"
+  },
+  {
+    "iata": "OSL",
+    "city": "Oslo",
+    "country": "Unknown"
+  },
+  {
+    "iata": "OST",
+    "city": "Ostend",
+    "country": "Unknown"
+  },
+  {
+    "iata": "OTP",
+    "city": "Bucharest, Otopeni",
+    "country": "Unknown"
+  },
+  {
+    "iata": "OTZ",
+    "city": "Kotzebue",
+    "country": "Unknown"
+  },
+  {
+    "iata": "OUA",
+    "city": "Ouagadougou",
+    "country": "Unknown"
+  },
+  {
+    "iata": "OVB",
+    "city": "Novosibirsk",
+    "country": "Unknown"
+  },
+  {
+    "iata": "OVD",
+    "city": "Asturias",
+    "country": "Unknown"
+  },
+  {
+    "iata": "OXR",
+    "city": "Oxnard/Ventura",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PAC",
+    "city": "Panama City, Paitilla",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PAP",
+    "city": "Port au Prince",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PAR",
+    "city": "Paris",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PBC",
+    "city": "Puebla",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PBI",
+    "city": "West Palm Beach",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PBL",
+    "city": "Puerto Cabello",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PBM",
+    "city": "Paramaribo",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PCL",
+    "city": "Pucallpa",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PDL",
+    "city": "Ponta Delgada",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PDX",
+    "city": "Portland",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PEI",
+    "city": "Pereira",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PEK",
+    "city": "Beijing",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PEM",
+    "city": "Puerto Maldonado",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PEN",
+    "city": "Penang",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PER",
+    "city": "Perth",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PEW",
+    "city": "Peshawar",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PFN",
+    "city": "Panama City",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PFO",
+    "city": "Paphos",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PGF",
+    "city": "Perpignan",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PGM",
+    "city": "Port Graham",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PGV",
+    "city": "Greenville",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PHC",
+    "city": "Port Harcourt",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PHE",
+    "city": "Port Hedland",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PHF",
+    "city": "Hampton / Williamsburg",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PHL",
+    "city": "Philadelphia",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PHX",
+    "city": "Phoenix",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PIA",
+    "city": "Peoria",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PIH",
+    "city": "Pocatello",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PIK",
+    "city": "Glasgow, Prestwick",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PIR",
+    "city": "Pierre",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PIT",
+    "city": "Pittsburgh",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PIU",
+    "city": "Piura",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PKA",
+    "city": "Napaskiak",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PKB",
+    "city": "Marietta, Parkersburg",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PLM",
+    "city": "Palembang",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PLS",
+    "city": "Providenciales",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PLZ",
+    "city": "Port Elizabeth",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PMC",
+    "city": "Puerto Montt",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PMI",
+    "city": "Palma de Mallorca",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PMO",
+    "city": "Palermo",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PMV",
+    "city": "Porlamar",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PNE",
+    "city": "Philadelphia, North",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PNH",
+    "city": "Phnom Penh",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PNI",
+    "city": "Pohnpei",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PNR",
+    "city": "Pointe Noire",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PNS",
+    "city": "Pensacola",
+    "country": "Unknown"
+  },
+  {
+    "iata": "POA",
+    "city": "Porto Alegre",
+    "country": "Unknown"
+  },
+  {
+    "iata": "POG",
+    "city": "Port Gentil",
+    "country": "Unknown"
+  },
+  {
+    "iata": "POM",
+    "city": "Port Moresby",
+    "country": "Unknown"
+  },
+  {
+    "iata": "POP",
+    "city": "Puerto Plata",
+    "country": "Unknown"
+  },
+  {
+    "iata": "POR",
+    "city": "Pori",
+    "country": "Unknown"
+  },
+  {
+    "iata": "POS",
+    "city": "Port of Spain, Trinidad",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PPG",
+    "city": "Pago Pago",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PPT",
+    "city": "Papeete",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PQI",
+    "city": "Presque Isle",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PRG",
+    "city": "Prague",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PSA",
+    "city": "Pisa",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PSC",
+    "city": "Pasco",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PSE",
+    "city": "Ponce",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PSG",
+    "city": "Petersburg",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PSP",
+    "city": "Palm Springs",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PSR",
+    "city": "Pescara",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PTH",
+    "city": "Port Heiden",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PTP",
+    "city": "Point \u00e0 Pitre",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PTU",
+    "city": "Platinum",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PTY",
+    "city": "Panama City",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PUF",
+    "city": "Pau",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PUQ",
+    "city": "Punta Arenas",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PUS",
+    "city": "Pusan",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PVD",
+    "city": "Providence",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PVH",
+    "city": "Port Velho",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PVR",
+    "city": "Puerto Vallarta",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PWM",
+    "city": "Portland",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PXM",
+    "city": "Puerto Escondido",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PYH",
+    "city": "Puerto Ayachucho",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PYM",
+    "city": "Plymouth",
+    "country": "Unknown"
+  },
+  {
+    "iata": "PZO",
+    "city": "Puerto Ordaz",
+    "country": "Unknown"
+  },
+  {
+    "iata": "QPG",
+    "city": "Singapore, Paya Lebar",
+    "country": "Unknown"
+  },
+  {
+    "iata": "RAB",
+    "city": "Rabaul",
+    "country": "Unknown"
+  },
+  {
+    "iata": "RAK",
+    "city": "Marrakech",
+    "country": "Unknown"
+  },
+  {
+    "iata": "RAP",
+    "city": "Rapid City",
+    "country": "Unknown"
+  },
+  {
+    "iata": "RAR",
+    "city": "Rarotonga",
+    "country": "Unknown"
+  },
+  {
+    "iata": "RBA",
+    "city": "Rabat",
+    "country": "Unknown"
+  },
+  {
+    "iata": "RBY",
+    "city": "Ruby",
+    "country": "Unknown"
+  },
+  {
+    "iata": "RDD",
+    "city": "Redding",
+    "country": "Unknown"
+  },
+  {
+    "iata": "RDU",
+    "city": "Raleigh/Durham",
+    "country": "Unknown"
+  },
+  {
+    "iata": "RDV",
+    "city": "Red Devil",
+    "country": "Unknown"
+  },
+  {
+    "iata": "REC",
+    "city": "Recife",
+    "country": "Unknown"
+  },
+  {
+    "iata": "REK",
+    "city": "Reykjavik",
+    "country": "Unknown"
+  },
+  {
+    "iata": "RFD",
+    "city": "Rockford",
+    "country": "Unknown"
+  },
+  {
+    "iata": "RGL",
+    "city": "Rio Gallegos",
+    "country": "Unknown"
+  },
+  {
+    "iata": "RGN",
+    "city": "Rangoon/Yangon",
+    "country": "Unknown"
+  },
+  {
+    "iata": "RIC",
+    "city": "Richmond",
+    "country": "Unknown"
+  },
+  {
+    "iata": "RIJ",
+    "city": "Rioja",
+    "country": "Unknown"
+  },
+  {
+    "iata": "RIO",
+    "city": "Rio de Janeiro",
+    "country": "Unknown"
+  },
+  {
+    "iata": "RIX",
+    "city": "Riga",
+    "country": "Unknown"
+  },
+  {
+    "iata": "RKE",
+    "city": "Copenhagen, Roskilde",
+    "country": "Unknown"
+  },
+  {
+    "iata": "RMI",
+    "city": "Rimini",
+    "country": "Unknown"
+  },
+  {
+    "iata": "RNO",
+    "city": "Reno",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ROA",
+    "city": "Roanoke",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ROB",
+    "city": "Monrovia, Roberts International",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ROC",
+    "city": "Rochester",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ROL",
+    "city": "Roosevelt",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ROM",
+    "city": "Rome",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ROP",
+    "city": "Rota",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ROR",
+    "city": "Koror",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ROW",
+    "city": "Roswell",
+    "country": "Unknown"
+  },
+  {
+    "iata": "RSC",
+    "city": "Riga, Skulte",
+    "country": "Unknown"
+  },
+  {
+    "iata": "RSH",
+    "city": "Russian Mission",
+    "country": "Unknown"
+  },
+  {
+    "iata": "RST",
+    "city": "Rochester",
+    "country": "Unknown"
+  },
+  {
+    "iata": "RTB",
+    "city": "Roatan",
+    "country": "Unknown"
+  },
+  {
+    "iata": "RTM",
+    "city": "Rotterdam",
+    "country": "Unknown"
+  },
+  {
+    "iata": "RUH",
+    "city": "Riyadh",
+    "country": "Unknown"
+  },
+  {
+    "iata": "RUN",
+    "city": "St. Denis de La Reunion",
+    "country": "Unknown"
+  },
+  {
+    "iata": "RWI",
+    "city": "Rocky Mount/Wilson",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SAH",
+    "city": "Sanaa",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SAL",
+    "city": "San Salvador",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SAN",
+    "city": "San Diego",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SAO",
+    "city": "Sao Paulo",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SAP",
+    "city": "San Pedro Sula",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SAT",
+    "city": "San Antonio",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SAV",
+    "city": "Savannah",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SBA",
+    "city": "Santa Barbara",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SBN",
+    "city": "South Bend",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SBS",
+    "city": "Steamboat Spring",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SBW",
+    "city": "Sibu",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SCC",
+    "city": "Prudhoe Bay / Deadhorse",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SCF",
+    "city": "Phoenix, Scottsdale Municipal",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SCK",
+    "city": "Stockton",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SCL",
+    "city": "Santiago",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SCM",
+    "city": "Scammon Bay",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SCN",
+    "city": "Saarbruecken",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SCQ",
+    "city": "Santiago de Compostela",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SCS",
+    "city": "Shetland Islands, Scatsta",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SDA",
+    "city": "Baghdad, Saddam International",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SDF",
+    "city": "Louisville",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SDJ",
+    "city": "Sendai",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SDK",
+    "city": "Sandakan",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SDL",
+    "city": "Sundsvall",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SDP",
+    "city": "Sand Point",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SDQ",
+    "city": "Santo Domingo",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SDU",
+    "city": "Rio de Janeiro, Santos Dumont",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SDV",
+    "city": "Tel Aviv Yafo, Sde Dov",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SDX",
+    "city": "Sedona",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SEA",
+    "city": "Seattle",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SEL",
+    "city": "Seoul",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SEZ",
+    "city": "Mahe Island",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SFJ",
+    "city": "Sondre Stromfjord",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SFO",
+    "city": "San Francisco",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SGD",
+    "city": "Sonderborg",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SGF",
+    "city": "Springfield",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SGN",
+    "city": "Ho Chi Minh City",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SGR",
+    "city": "Houston, Hull Field",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SGU",
+    "city": "St. George",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SHA",
+    "city": "Shanghai",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SHE",
+    "city": "Shenyang",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SHJ",
+    "city": "Sharjah",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SHV",
+    "city": "Shreveport",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SHX",
+    "city": "Shageluk",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SIA",
+    "city": "Xian",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SID",
+    "city": "Sal",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SIG",
+    "city": "San Juan, Isla Grande",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SIN",
+    "city": "Singapore",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SIP",
+    "city": "Simferopol",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SIT",
+    "city": "Sitka",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SJC",
+    "city": "San Jose",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SJD",
+    "city": "San Jose, Los Cabos",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SJO",
+    "city": "San Jose",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SJT",
+    "city": "San Angelo",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SJU",
+    "city": "San Juan",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SJW",
+    "city": "Shijiazhuang",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SKB",
+    "city": "St. Kitts",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SKG",
+    "city": "Thessaloniki",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SKO",
+    "city": "Sokoto",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SLC",
+    "city": "Salt Lake City",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SLP",
+    "city": "San Luis Potosi",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SLQ",
+    "city": "Sleetmute",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SLU",
+    "city": "St. Lucia",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SLW",
+    "city": "Saltillo",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SLZ",
+    "city": "Sao Luiz",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SMF",
+    "city": "Sacramento",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SMX",
+    "city": "Santa Maria",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SNA",
+    "city": "Laguna Beach / Sant Ana",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SNN",
+    "city": "Shannon",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SOF",
+    "city": "Sofia",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SOM",
+    "city": "San Tome",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SOV",
+    "city": "Seldovia",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SPE",
+    "city": "Sepulot",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SPI",
+    "city": "Springfield",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SPK",
+    "city": "Sapporo",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SPL",
+    "city": "Amsterdam, Schiphol Airport",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SPN",
+    "city": "Saipan",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SPS",
+    "city": "Wichita Falls",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SRQ",
+    "city": "Sarasota/ Bradenton",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SRV",
+    "city": "Stony River",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SRZ",
+    "city": "Santa Cruz",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SSA",
+    "city": "Salvador",
+    "country": "Unknown"
+  },
+  {
+    "iata": "STD",
+    "city": "Santo Domingo",
+    "country": "Unknown"
+  },
+  {
+    "iata": "STG",
+    "city": "St. George Island",
+    "country": "Unknown"
+  },
+  {
+    "iata": "STL",
+    "city": "St. Louis",
+    "country": "Unknown"
+  },
+  {
+    "iata": "STN",
+    "city": "London, Stansted",
+    "country": "Unknown"
+  },
+  {
+    "iata": "STO",
+    "city": "Stockholm",
+    "country": "Unknown"
+  },
+  {
+    "iata": "STR",
+    "city": "Stuttgart",
+    "country": "Unknown"
+  },
+  {
+    "iata": "STT",
+    "city": "St. Thomas",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SUB",
+    "city": "Surabaya",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SUI",
+    "city": "Sukhumi",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SUV",
+    "city": "Suva",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SVD",
+    "city": "St. Vincent",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SVG",
+    "city": "Stavanger",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SVO",
+    "city": "Moscow, Sheremetyevo",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SVQ",
+    "city": "Seville",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SVS",
+    "city": "Stevens Village",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SVX",
+    "city": "Sverdlovsk, Ekaterinburg",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SVZ",
+    "city": "San Antonio",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SWA",
+    "city": "Shantou/Swatow",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SWD",
+    "city": "Seward",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SWF",
+    "city": "Newburgh",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SWK",
+    "city": "Milan, Segrate",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SXB",
+    "city": "Strasbourg",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SXF",
+    "city": "Berlin, Schonefeld",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SXM",
+    "city": "St. Maarten",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SXW",
+    "city": "Soldotna",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SYA",
+    "city": "Shemya Islands",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SYD",
+    "city": "Sydney",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SYR",
+    "city": "Syracuse",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SYX",
+    "city": "Sanya",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SYZ",
+    "city": "Shiraz",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SZG",
+    "city": "Salzburg",
+    "country": "Unknown"
+  },
+  {
+    "iata": "SZX",
+    "city": "Shenzhen",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TAB",
+    "city": "Tobago",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TAE",
+    "city": "Taegu, Korea",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TAK",
+    "city": "Takamatsu",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TAL",
+    "city": "Tanana",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TAO",
+    "city": "Qingdao",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TAS",
+    "city": "Tashkent",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TBP",
+    "city": "Tumbes",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TBU",
+    "city": "Tongatapu",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TBZ",
+    "city": "Tabriz",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TCI",
+    "city": "Tenerife",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TCL",
+    "city": "Tuscaloosa",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TCQ",
+    "city": "Tacna",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TER",
+    "city": "Terceira",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TFN",
+    "city": "Tenerife, Norte Los Rodeos",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TFS",
+    "city": "Tenerife, Sur Reine Sofia",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TGI",
+    "city": "Tingo Maria",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TGU",
+    "city": "Tegucigalpa",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TGZ",
+    "city": "Tuxtla Gutierrez",
+    "country": "Unknown"
+  },
+  {
+    "iata": "THF",
+    "city": "Berlin, Tempelhof",
+    "country": "Unknown"
+  },
+  {
+    "iata": "THR",
+    "city": "Tehran",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TIF",
+    "city": "Taif",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TIJ",
+    "city": "Tijuana",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TIP",
+    "city": "Tripoli",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TKK",
+    "city": "Truk",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TKS",
+    "city": "Tokushima",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TKU",
+    "city": "Turku",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TLH",
+    "city": "Tallahassee",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TLL",
+    "city": "Tallinn",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TLN",
+    "city": "Toulon/Hyeres",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TLS",
+    "city": "Toulouse",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TLT",
+    "city": "Tuluksak",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TLV",
+    "city": "Tel Aviv Yafo, Tel Aviv",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TMP",
+    "city": "Tampere",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TMR",
+    "city": "Tamanrasset",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TMS",
+    "city": "Sao Tome Island",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TMT",
+    "city": "Trombetas",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TNA",
+    "city": "Jinan",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TNG",
+    "city": "Tangier",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TNK",
+    "city": "Tununak",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TNR",
+    "city": "Antananarivo",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TOL",
+    "city": "Toledo",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TOP",
+    "city": "Topeka",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TOS",
+    "city": "Tromso",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TOY",
+    "city": "Toyama",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TPA",
+    "city": "Tampa",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TPE",
+    "city": "Taipei",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TPP",
+    "city": "Tarapoto",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TRC",
+    "city": "Torreon",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TRD",
+    "city": "Trondheim",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TRI",
+    "city": "Tri-City",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TRN",
+    "city": "Turin",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TRS",
+    "city": "Trieste",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TRU",
+    "city": "Trujillo",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TRV",
+    "city": "Trivandrum",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TSA",
+    "city": "Taipei, Shung Shan",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TSF",
+    "city": "Venice, Treviso",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TSN",
+    "city": "Tianjin",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TSO",
+    "city": "Isles of Scil, Tresco",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TSR",
+    "city": "Timisoara",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TTJ",
+    "city": "Tottori",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TTN",
+    "city": "Trenton",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TUL",
+    "city": "Tulsa",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TUN",
+    "city": "Tunis",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TUS",
+    "city": "Tucson",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TUU",
+    "city": "Tabuk",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TVC",
+    "city": "Traverse City",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TWF",
+    "city": "Twin Falls",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TWU",
+    "city": "Tawau",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TXG",
+    "city": "Taichung",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TXK",
+    "city": "Texarkana",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TXL",
+    "city": "Berlin, Tegel",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TYL",
+    "city": "Talara",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TYN",
+    "city": "Taiyuan",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TYO",
+    "city": "Tokyo",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TYR",
+    "city": "Tyler",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TYS",
+    "city": "Knoxville",
+    "country": "Unknown"
+  },
+  {
+    "iata": "TZA",
+    "city": "Belize, Municipal",
+    "country": "Unknown"
+  },
+  {
+    "iata": "UBJ",
+    "city": "Ube",
+    "country": "Unknown"
+  },
+  {
+    "iata": "UBS",
+    "city": "Columbus",
+    "country": "Unknown"
+  },
+  {
+    "iata": "UET",
+    "city": "Quetta",
+    "country": "Unknown"
+  },
+  {
+    "iata": "UIO",
+    "city": "Quito",
+    "country": "Unknown"
+  },
+  {
+    "iata": "UKI",
+    "city": "Ukiah",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ULN",
+    "city": "Ulan Bator",
+    "country": "Unknown"
+  },
+  {
+    "iata": "UME",
+    "city": "Umea",
+    "country": "Unknown"
+  },
+  {
+    "iata": "UNK",
+    "city": "Unalakleet",
+    "country": "Unknown"
+  },
+  {
+    "iata": "URC",
+    "city": "Urumqi",
+    "country": "Unknown"
+  },
+  {
+    "iata": "URO",
+    "city": "Rouen",
+    "country": "Unknown"
+  },
+  {
+    "iata": "UUS",
+    "city": "Yuzhno -Sakhalinsk",
+    "country": "Unknown"
+  },
+  {
+    "iata": "UVF",
+    "city": "St. Lucia, Hewanorra",
+    "country": "Unknown"
+  },
+  {
+    "iata": "VAA",
+    "city": "Vaasa",
+    "country": "Unknown"
+  },
+  {
+    "iata": "VAK",
+    "city": "Chevak",
+    "country": "Unknown"
+  },
+  {
+    "iata": "VCE",
+    "city": "Venice",
+    "country": "Unknown"
+  },
+  {
+    "iata": "VCP",
+    "city": "Sao Paulo, Viracopos",
+    "country": "Unknown"
+  },
+  {
+    "iata": "VEE",
+    "city": "Venetie",
+    "country": "Unknown"
+  },
+  {
+    "iata": "VEL",
+    "city": "Vernal",
+    "country": "Unknown"
+  },
+  {
+    "iata": "VER",
+    "city": "Veracruz",
+    "country": "Unknown"
+  },
+  {
+    "iata": "VGT",
+    "city": "Las Vegas, North Air Terminal",
+    "country": "Unknown"
+  },
+  {
+    "iata": "VIE",
+    "city": "Vienna",
+    "country": "Unknown"
+  },
+  {
+    "iata": "VIT",
+    "city": "Vitoria",
+    "country": "Unknown"
+  },
+  {
+    "iata": "VKO",
+    "city": "Moscow, Vnukovo",
+    "country": "Unknown"
+  },
+  {
+    "iata": "VLC",
+    "city": "Valencia",
+    "country": "Unknown"
+  },
+  {
+    "iata": "VLD",
+    "city": "Valdosta",
+    "country": "Unknown"
+  },
+  {
+    "iata": "VLI",
+    "city": "Port Vila",
+    "country": "Unknown"
+  },
+  {
+    "iata": "VLL",
+    "city": "Valladolid",
+    "country": "Unknown"
+  },
+  {
+    "iata": "VLN",
+    "city": "Valencia",
+    "country": "Unknown"
+  },
+  {
+    "iata": "VLV",
+    "city": "Valera",
+    "country": "Unknown"
+  },
+  {
+    "iata": "VNO",
+    "city": "Vilnius",
+    "country": "Unknown"
+  },
+  {
+    "iata": "VNY",
+    "city": "Los Angeles",
+    "country": "Unknown"
+  },
+  {
+    "iata": "VPS",
+    "city": "Eglin Afb/Valparaiso",
+    "country": "Unknown"
+  },
+  {
+    "iata": "VQS",
+    "city": "Vieques",
+    "country": "Unknown"
+  },
+  {
+    "iata": "VRN",
+    "city": "Verona",
+    "country": "Unknown"
+  },
+  {
+    "iata": "VSA",
+    "city": "Villahermosa",
+    "country": "Unknown"
+  },
+  {
+    "iata": "VST",
+    "city": "Vasteras",
+    "country": "Unknown"
+  },
+  {
+    "iata": "VTE",
+    "city": "Vientiane",
+    "country": "Unknown"
+  },
+  {
+    "iata": "VVI",
+    "city": "Santa Cruz",
+    "country": "Unknown"
+  },
+  {
+    "iata": "VVO",
+    "city": "Vladivostok",
+    "country": "Unknown"
+  },
+  {
+    "iata": "VXO",
+    "city": "Vaxjo",
+    "country": "Unknown"
+  },
+  {
+    "iata": "WAS",
+    "city": "Washington",
+    "country": "Unknown"
+  },
+  {
+    "iata": "WAW",
+    "city": "Warsaw",
+    "country": "Unknown"
+  },
+  {
+    "iata": "WBQ",
+    "city": "Beaver",
+    "country": "Unknown"
+  },
+  {
+    "iata": "WBU",
+    "city": "Boulder",
+    "country": "Unknown"
+  },
+  {
+    "iata": "WDH",
+    "city": "Windhoek",
+    "country": "Unknown"
+  },
+  {
+    "iata": "WIL",
+    "city": "Nairobi",
+    "country": "Unknown"
+  },
+  {
+    "iata": "WLG",
+    "city": "Wellington",
+    "country": "Unknown"
+  },
+  {
+    "iata": "WNA",
+    "city": "Napakiak",
+    "country": "Unknown"
+  },
+  {
+    "iata": "WRG",
+    "city": "Wrangell",
+    "country": "Unknown"
+  },
+  {
+    "iata": "WTL",
+    "city": "Tuntutulia",
+    "country": "Unknown"
+  },
+  {
+    "iata": "WUH",
+    "city": "Wuhan",
+    "country": "Unknown"
+  },
+  {
+    "iata": "WWT",
+    "city": "Newtok",
+    "country": "Unknown"
+  },
+  {
+    "iata": "XMN",
+    "city": "Xiamen",
+    "country": "Unknown"
+  },
+  {
+    "iata": "XSP",
+    "city": "Singapore, Seletar",
+    "country": "Unknown"
+  },
+  {
+    "iata": "YAK",
+    "city": "Yakutat",
+    "country": "Unknown"
+  },
+  {
+    "iata": "YAL",
+    "city": "Albert Bay",
+    "country": "Unknown"
+  },
+  {
+    "iata": "YAM",
+    "city": "Sault Ste. Marie",
+    "country": "Unknown"
+  },
+  {
+    "iata": "YAP",
+    "city": "Yap Caroline Island",
+    "country": "Unknown"
+  },
+  {
+    "iata": "YCB",
+    "city": "Cambridge Bay",
+    "country": "Unknown"
+  },
+  {
+    "iata": "YDF",
+    "city": "Deer Lake",
+    "country": "Unknown"
+  },
+  {
+    "iata": "YEA",
+    "city": "Edmonton",
+    "country": "Unknown"
+  },
+  {
+    "iata": "YED",
+    "city": "Edmonton, Namao Field",
+    "country": "Unknown"
+  },
+  {
+    "iata": "YEG",
+    "city": "Edmonton, Albert Int\u2019l",
+    "country": "Unknown"
+  },
+  {
+    "iata": "YEV",
+    "city": "Inuvik",
+    "country": "Unknown"
+  },
+  {
+    "iata": "YFB",
+    "city": "Iqaluit",
+    "country": "Unknown"
+  },
+  {
+    "iata": "YFC",
+    "city": "Fredericton",
+    "country": "Unknown"
+  },
+  {
+    "iata": "YFS",
+    "city": "Ft Simpson",
+    "country": "Unknown"
+  },
+  {
+    "iata": "YGL",
+    "city": "La Grande",
+    "country": "Unknown"
+  },
+  {
+    "iata": "YGW",
+    "city": "Kuujjuarap",
+    "country": "Unknown"
+  },
+  {
+    "iata": "YHM",
+    "city": "Hamilton",
+    "country": "Unknown"
+  },
+  {
+    "iata": "YHY",
+    "city": "Hay River",
+    "country": "Unknown"
+  },
+  {
+    "iata": "YHZ",
+    "city": "Halifax",
+    "country": "Unknown"
+  },
+  {
+    "iata": "YIP",
+    "city": "Detroit, Willow Run",
+    "country": "Unknown"
+  },
+  {
+    "iata": "YKM",
+    "city": "Yakima",
+    "country": "Unknown"
+  },
+  {
+    "iata": "YMQ",
+    "city": "Montreal",
+    "country": "Unknown"
+  },
+  {
+    "iata": "YMS",
+    "city": "Yurimaguas",
+    "country": "Unknown"
+  },
+  {
+    "iata": "YMX",
+    "city": "Montreal, Mirabel International",
+    "country": "Unknown"
+  },
+  {
+    "iata": "YNT",
+    "city": "Yantai",
+    "country": "Unknown"
+  },
+  {
+    "iata": "YOW",
+    "city": "Ottawa",
+    "country": "Unknown"
+  },
+  {
+    "iata": "YPR",
+    "city": "Prince Rupert",
+    "country": "Unknown"
+  },
+  {
+    "iata": "YQB",
+    "city": "Quebec",
+    "country": "Unknown"
+  },
+  {
+    "iata": "YQG",
+    "city": "Windsor",
+    "country": "Unknown"
+  },
+  {
+    "iata": "YQH",
+    "city": "Watson Lake",
+    "country": "Unknown"
+  },
+  {
+    "iata": "YQL",
+    "city": "Lethbridge",
+    "country": "Unknown"
+  },
+  {
+    "iata": "YQM",
+    "city": "Moncton",
+    "country": "Unknown"
+  },
+  {
+    "iata": "YQR",
+    "city": "Regina",
+    "country": "Unknown"
+  },
+  {
+    "iata": "YQT",
+    "city": "Thunder Bay",
+    "country": "Unknown"
+  },
+  {
+    "iata": "YQU",
+    "city": "Grande Prairie",
+    "country": "Unknown"
+  },
+  {
+    "iata": "YRB",
+    "city": "Resolute",
+    "country": "Unknown"
+  },
+  {
+    "iata": "YSB",
+    "city": "Sudbury",
+    "country": "Unknown"
+  },
+  {
+    "iata": "YSR",
+    "city": "Nanisivik",
+    "country": "Unknown"
+  },
+  {
+    "iata": "YTO",
+    "city": "Toronto",
+    "country": "Unknown"
+  },
+  {
+    "iata": "YTZ",
+    "city": "Toronto Island",
+    "country": "Unknown"
+  },
+  {
+    "iata": "YUL",
+    "city": "Montreal, Dorval International",
+    "country": "Unknown"
+  },
+  {
+    "iata": "YUX",
+    "city": "Hall Beach",
+    "country": "Unknown"
+  },
+  {
+    "iata": "YVA",
+    "city": "Moroni",
+    "country": "Unknown"
+  },
+  {
+    "iata": "YVO",
+    "city": "Bourlamaq/Val D\u2019or",
+    "country": "Unknown"
+  },
+  {
+    "iata": "YVP",
+    "city": "Fort Chima",
+    "country": "Unknown"
+  },
+  {
+    "iata": "YVQ",
+    "city": "Norman Wells",
+    "country": "Unknown"
+  },
+  {
+    "iata": "YVR",
+    "city": "Vancouver",
+    "country": "Unknown"
+  },
+  {
+    "iata": "YWG",
+    "city": "Winnipeg",
+    "country": "Unknown"
+  },
+  {
+    "iata": "YWK",
+    "city": "Wabush",
+    "country": "Unknown"
+  },
+  {
+    "iata": "YXD",
+    "city": "Edmonton, Municipal",
+    "country": "Unknown"
+  },
+  {
+    "iata": "YXJ",
+    "city": "Fort St. John",
+    "country": "Unknown"
+  },
+  {
+    "iata": "YXS",
+    "city": "Prince George",
+    "country": "Unknown"
+  },
+  {
+    "iata": "YXT",
+    "city": "Terrace",
+    "country": "Unknown"
+  },
+  {
+    "iata": "YXU",
+    "city": "London",
+    "country": "Unknown"
+  },
+  {
+    "iata": "YXY",
+    "city": "Whitehorse",
+    "country": "Unknown"
+  },
+  {
+    "iata": "YYC",
+    "city": "Calgary",
+    "country": "Unknown"
+  },
+  {
+    "iata": "YYE",
+    "city": "Fort Nelson",
+    "country": "Unknown"
+  },
+  {
+    "iata": "YYJ",
+    "city": "Victoria",
+    "country": "Unknown"
+  },
+  {
+    "iata": "YYR",
+    "city": "Goose Bay",
+    "country": "Unknown"
+  },
+  {
+    "iata": "YYT",
+    "city": "St. Johns",
+    "country": "Unknown"
+  },
+  {
+    "iata": "YYZ",
+    "city": "Toronto",
+    "country": "Unknown"
+  },
+  {
+    "iata": "YZF",
+    "city": "Yellowknife",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ZAG",
+    "city": "Zagreb",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ZAH",
+    "city": "Zahedan",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ZCL",
+    "city": "Zacatecas",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ZCO",
+    "city": "Temuco",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ZHA",
+    "city": "Zhanjiang",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ZIH",
+    "city": "Zihuatanejo",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ZLO",
+    "city": "Manzanillo",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ZNZ",
+    "city": "Zanzibar",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ZOS",
+    "city": "Osorno",
+    "country": "Unknown"
+  },
+  {
+    "iata": "ZRH",
+    "city": "Zurich",
+    "country": "Unknown"
+  }
+]
