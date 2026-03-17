@@ -1379,6 +1379,13 @@
     "city_it": "Columbia"
   },
   {
+    "iata": "CAG",
+    "city": "Cagliari",
+    "country": "Italy",
+    "city_it": "Cagliari",
+    "country_it": "Italia"
+  },
+  {
     "iata": "CAI",
     "city": "Cairo",
     "country": "Egypt",
