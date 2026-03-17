@@ -192,7 +192,7 @@
   {
     "iata": "AHT",
     "city": "Amchitka",
-    "country": "Unknown"
+    "country": "United States"
   },
   {
     "iata": "AIY",
@@ -1007,7 +1007,7 @@
   {
     "iata": "CAS",
     "city": "Casablanca, Anfa",
-    "country": "Unknown"
+    "country": "Morocco"
   },
   {
     "iata": "CAY",
@@ -1397,7 +1397,7 @@
   {
     "iata": "CUX",
     "city": "Corpus Christie, Cuddihy Field",
-    "country": "Unknown"
+    "country": "United States"
   },
   {
     "iata": "CUZ",
@@ -1722,7 +1722,7 @@
   {
     "iata": "EMB",
     "city": "San Francisco, Embarkadero",
-    "country": "Unknown"
+    "country": "United States"
   },
   {
     "iata": "ENA",
@@ -3247,7 +3247,7 @@
   {
     "iata": "LON",
     "city": "London",
-    "country": "Unknown"
+    "country": "United Kingdom"
   },
   {
     "iata": "LOS",
@@ -3547,7 +3547,7 @@
   {
     "iata": "MIL",
     "city": "Milan",
-    "country": "Unknown"
+    "country": "Italy"
   },
   {
     "iata": "MIU",
@@ -3637,7 +3637,7 @@
   {
     "iata": "MMA",
     "city": "Malmo",
-    "country": "Unknown"
+    "country": "Sweden"
   },
   {
     "iata": "MME",
@@ -3662,7 +3662,7 @@
   {
     "iata": "MOW",
     "city": "Moscow",
-    "country": "Unknown"
+    "country": "Russia"
   },
   {
     "iata": "MPB",
@@ -4137,7 +4137,7 @@
   {
     "iata": "PAR",
     "city": "Paris",
-    "country": "Unknown"
+    "country": "France"
   },
   {
     "iata": "PBC",
@@ -4567,7 +4567,7 @@
   {
     "iata": "REK",
     "city": "Reykjavik",
-    "country": "Unknown"
+    "country": "Iceland"
   },
   {
     "iata": "RFD",
@@ -4642,7 +4642,7 @@
   {
     "iata": "ROM",
     "city": "Rome",
-    "country": "Unknown"
+    "country": "Italy"
   },
   {
     "iata": "ROP",
@@ -4717,7 +4717,7 @@
   {
     "iata": "SAO",
     "city": "Sao Paulo",
-    "country": "Unknown"
+    "country": "Brazil"
   },
   {
     "iata": "SAP",
@@ -5077,7 +5077,7 @@
   {
     "iata": "SPL",
     "city": "Amsterdam, Schiphol Airport",
-    "country": "Unknown"
+    "country": "Netherlands"
   },
   {
     "iata": "SPN",
@@ -5132,7 +5132,7 @@
   {
     "iata": "STO",
     "city": "Stockholm",
-    "country": "Unknown"
+    "country": "Sweden"
   },
   {
     "iata": "STR",
@@ -5212,7 +5212,7 @@
   {
     "iata": "SWK",
     "city": "Milan, Segrate",
-    "country": "Unknown"
+    "country": "Italy"
   },
   {
     "iata": "SXB",
@@ -5557,7 +5557,7 @@
   {
     "iata": "TSO",
     "city": "Isles of Scil, Tresco",
-    "country": "Unknown"
+    "country": "United Kingdom"
   },
   {
     "iata": "TSR",
@@ -6112,7 +6112,7 @@
   {
     "iata": "YTO",
     "city": "Toronto",
-    "country": "Unknown"
+    "country": "Canada"
   },
   {
     "iata": "YTZ",
