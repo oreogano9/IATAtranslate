@@ -420,7 +420,7 @@ export default function App() {
                   <p className="text-xs uppercase tracking-[0.4em]">{t.hubs}</p>
                 </div>
                 <div className="mt-4 flex flex-wrap gap-2">
-                  {['LHR', 'JFK', 'DXB', 'SIN', 'CDG', 'BCN'].map(code => (
+                  {['CTA', 'PMO', 'LIN', 'CAG', 'MAD', 'BCN', 'ORY', 'CDG', 'LGW', 'ATH'].map(code => (
                     <button
                       key={code}
                       onClick={() => handleSelect(AIRPORT_DATA.find(a => a.iata === code))}
@@ -472,7 +472,6 @@ export default function App() {
                       <MapPin className="text-teal-300 w-7 h-7" />
                     </div>
                     <div className="text-right">
-                      <span className="text-[10px] uppercase tracking-[0.5em] text-slate-400">{t.validated}</span>
                       <div className="text-4xl font-black text-teal-200 font-mono tracking-[0.3em]">
                         {selectedAirport.iata}
                       </div>
