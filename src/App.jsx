@@ -46,6 +46,7 @@ export default function App() {
 
   const videoRef = useRef(null);
   const canvasRef = useRef(null);
+  const resultRef = useRef(null);
 
   const copy = {
     en: {
@@ -125,6 +126,9 @@ export default function App() {
     setQuery(airport.iata);
     setShowSuggestions(false);
     addToHistory(airport);
+    if (window.innerWidth < 768 && resultRef.current) {
+      resultRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
   };
 
   const addToHistory = (airport) => {
@@ -456,7 +460,7 @@ export default function App() {
           </section>
 
           <aside className="flex flex-col gap-6">
-            <div className="glass rounded-[32px] p-8 shadow-2xl">
+            <div ref={resultRef} className="glass rounded-[32px] p-8 shadow-2xl">
               {selectedAirport ? (
                 <div className="space-y-8">
                   <div className="flex items-start justify-between">
