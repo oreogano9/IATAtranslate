@@ -50,7 +50,7 @@ export default function App() {
 
   const copy = {
     en: {
-      title: 'Tag to Terminal',
+      title: 'Translate IATA Code',
       subtitle: 'Translate airport codes instantly or scan luggage tags with onboard OCR.',
       inputLabel: 'IATA Code',
       placeholder: 'TAG',
@@ -80,7 +80,7 @@ export default function App() {
       scanFail: 'Scanning failed. Try again.'
     },
     it: {
-      title: 'Tag verso Terminal',
+      title: 'Traduci codice IATA',
       subtitle: 'Traduci i codici IATA in un attimo o scansiona le etichette bagaglio.',
       inputLabel: 'Codice IATA',
       placeholder: 'TAG',
