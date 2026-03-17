@@ -20,4 +20,4 @@ npm run preview
 
 - The camera scan uses a Gemini endpoint. Provide your API key at runtime in `src/App.jsx` where `apiKey` is defined.
 - The airport database is generated from the provided PDF and lives in `src/data/airports.json`.
-- The PDF does not include countries, so entries currently use `"Unknown"` for the country field.
+- The app now includes an Italian toggle and stores localized fields (`city_it`, `country_it`) in the dataset.

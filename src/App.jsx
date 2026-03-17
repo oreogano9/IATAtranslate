@@ -35,6 +35,7 @@ async function fetchWithRetry(url, options, retries = 5, backoff = 1000) {
 
 export default function App() {
   const [mode, setMode] = useState('keyboard'); // 'keyboard' or 'camera'
+  const [language, setLanguage] = useState('en'); // 'en' or 'it'
   const [query, setQuery] = useState('');
   const [selectedAirport, setSelectedAirport] = useState(null);
   const [showSuggestions, setShowSuggestions] = useState(false);
@@ -45,6 +46,71 @@ export default function App() {
 
   const videoRef = useRef(null);
   const canvasRef = useRef(null);
+
+  const copy = {
+    en: {
+      title: 'Tag to Terminal',
+      subtitle: 'Translate airport codes instantly or scan luggage tags with onboard OCR.',
+      inputLabel: 'IATA Code',
+      placeholder: 'TAG',
+      type: 'Type',
+      scan: 'Scan',
+      hubs: 'Hot Hubs',
+      recent: 'Recent Lookups',
+      ready: 'Scanner Ready',
+      validated: 'Validated',
+      city: 'City',
+      country: 'Country',
+      scanError: 'SCAN ERROR',
+      dismiss: 'Dismiss',
+      readyTag: 'Ready for your tag',
+      how: 'How it works',
+      how1: 'Type a 3-letter IATA code or scan the luggage tag.',
+      how2: 'Instant match pulls city and country from our ops list.',
+      how3: 'Recent lookups keep your handling workflow fast.',
+      align: 'Align Tag',
+      scanning: 'Identifying Tag...',
+      scanTag: 'SCAN TAG',
+      scanningBtn: 'SCANNING...',
+      detected: 'Detected',
+      notInList: 'Code detected but not in our list.',
+      noCode: 'No 3-letter code found in tag.',
+      cameraDenied: 'Camera access denied or not available.',
+      scanFail: 'Scanning failed. Try again.'
+    },
+    it: {
+      title: 'Tag verso Terminal',
+      subtitle: 'Traduci i codici IATA in un attimo o scansiona le etichette bagaglio.',
+      inputLabel: 'Codice IATA',
+      placeholder: 'TAG',
+      type: 'Digita',
+      scan: 'Scansiona',
+      hubs: 'Hub Rapidi',
+      recent: 'Ricerche Recenti',
+      ready: 'Scanner Pronto',
+      validated: 'Verificato',
+      city: 'Città',
+      country: 'Paese',
+      scanError: 'ERRORE SCANSIONE',
+      dismiss: 'Chiudi',
+      readyTag: 'Pronto per il tuo tag',
+      how: 'Come funziona',
+      how1: 'Digita un codice IATA di 3 lettere o scansiona l’etichetta.',
+      how2: 'Il match immediato mostra città e paese dalla lista operativa.',
+      how3: 'Le ricerche recenti accelerano il flusso di handling.',
+      align: 'Allinea Tag',
+      scanning: 'Identificazione Tag...',
+      scanTag: 'SCANSIONA TAG',
+      scanningBtn: 'SCANSIONANDO...',
+      detected: 'Rilevato',
+      notInList: 'Codice rilevato ma non presente nella lista.',
+      noCode: 'Nessun codice a 3 lettere trovato.',
+      cameraDenied: 'Accesso alla fotocamera negato o non disponibile.',
+      scanFail: 'Scansione non riuscita. Riprova.'
+    }
+  };
+
+  const t = copy[language];
 
   // Filter ONLY by IATA code prefix
   const suggestions = useMemo(() => {
@@ -95,7 +161,7 @@ export default function App() {
           }
         } catch (err) {
           console.error(err);
-          setCameraError('Camera access denied or not available.');
+          setCameraError(t.cameraDenied);
           setMode('keyboard');
         }
       };
@@ -128,8 +194,9 @@ export default function App() {
       const base64Image = canvas.toDataURL('image/png').split(',')[1];
 
       // Call Gemini for OCR
-      const prompt =
-        "Look at this luggage tag. Extract the primary 3-letter IATA airport code (e.g., JFK, LAX, CDG). Only return the 3 uppercase letters. If not found, return 'None'.";
+      const prompt = language === 'it'
+        ? "Guarda questa etichetta bagaglio. Estrai il codice aeroporto IATA principale di 3 lettere (es. JFK, LAX, CDG). Restituisci solo le 3 lettere maiuscole. Se non trovi nulla, restituisci 'None'."
+        : "Look at this luggage tag. Extract the primary 3-letter IATA airport code (e.g., JFK, LAX, CDG). Only return the 3 uppercase letters. If not found, return 'None'.";
 
       const result = await fetchWithRetry(
         `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=${apiKey}`,
@@ -156,17 +223,17 @@ export default function App() {
         const match = AIRPORT_DATA.find(a => a.iata === detectedCode);
         if (match) {
           handleSelect(match);
-          setFlashMessage(`Detected: ${detectedCode}`);
+          setFlashMessage(`${t.detected}: ${detectedCode}`);
           setTimeout(() => setFlashMessage(null), 2000);
         } else {
-          setCameraError(`Code "${detectedCode}" detected but not in our list.`);
+          setCameraError(`${t.notInList} (${detectedCode})`);
         }
       } else {
-        setCameraError('No 3-letter code found in tag.');
+        setCameraError(t.noCode);
       }
     } catch (err) {
       console.error(err);
-      setCameraError('Scanning failed. Try again.');
+      setCameraError(t.scanFail);
     } finally {
       setScanning(false);
     }
@@ -185,11 +252,33 @@ export default function App() {
                 </div>
                 <div>
                   <p className="text-xs uppercase tracking-[0.4em] text-teal-200">IATA Translator</p>
-                  <h1 className="text-3xl md:text-4xl font-bold">Tag to Terminal</h1>
+                  <h1 className="text-3xl md:text-4xl font-bold">{t.title}</h1>
                   <p className="text-sm text-slate-300 max-w-sm">
-                    Translate airport codes instantly or scan luggage tags with onboard OCR.
+                    {t.subtitle}
                   </p>
                 </div>
+              </div>
+              <div className="flex items-center gap-2 bg-slate-900/60 rounded-2xl p-1 border border-slate-700/60">
+                <button
+                  onClick={() => setLanguage('en')}
+                  className={`px-3 py-2 rounded-xl text-xs font-black uppercase tracking-[0.2em] transition ${
+                    language === 'en'
+                      ? 'bg-white text-slate-900'
+                      : 'text-slate-300'
+                  }`}
+                >
+                  EN
+                </button>
+                <button
+                  onClick={() => setLanguage('it')}
+                  className={`px-3 py-2 rounded-xl text-xs font-black uppercase tracking-[0.2em] transition ${
+                    language === 'it'
+                      ? 'bg-white text-slate-900'
+                      : 'text-slate-300'
+                  }`}
+                >
+                  IT
+                </button>
               </div>
               <div className="flex items-center gap-2 bg-slate-900/60 rounded-2xl p-1 border border-slate-700/60">
                 <button
@@ -201,7 +290,7 @@ export default function App() {
                   }`}
                 >
                   <Keyboard className="inline-block w-4 h-4 mr-2" />
-                  Type
+                  {t.type}
                 </button>
                 <button
                   onClick={() => setMode('camera')}
@@ -212,7 +301,7 @@ export default function App() {
                   }`}
                 >
                   <Camera className="inline-block w-4 h-4 mr-2" />
-                  Scan
+                  {t.scan}
                 </button>
               </div>
             </header>
@@ -220,7 +309,7 @@ export default function App() {
             <div className="mt-10">
               {mode === 'keyboard' ? (
                 <div className="relative">
-                  <label className="text-xs uppercase tracking-[0.5em] text-slate-400">IATA Code</label>
+                  <label className="text-xs uppercase tracking-[0.5em] text-slate-400">{t.inputLabel}</label>
                   <div className="mt-3 relative">
                     <div className="absolute left-5 top-1/2 -translate-y-1/2 text-slate-500">
                       <Search className="w-5 h-5" />
@@ -229,7 +318,7 @@ export default function App() {
                       type="text"
                       autoFocus
                       className="w-full bg-slate-950/60 border border-slate-700 rounded-3xl pl-14 pr-14 py-5 text-4xl md:text-5xl font-black tracking-[0.35em] text-teal-200 focus:border-teal-300 focus:ring-2 focus:ring-teal-300/40 outline-none transition placeholder:text-slate-700 font-mono"
-                      placeholder="TAG"
+                      placeholder={t.placeholder}
                       value={query}
                       onChange={handleInputChange}
                       onFocus={() => setShowSuggestions(true)}
@@ -251,22 +340,24 @@ export default function App() {
                     <div className="absolute z-30 w-full mt-4 glass rounded-3xl overflow-hidden shadow-2xl">
                       {suggestions.map((airport) => (
                         <button
-                          key={airport.iata}
-                          className="w-full text-left px-6 py-4 hover:bg-slate-900/80 flex items-center justify-between border-b border-slate-800 last:border-0"
-                          onClick={() => handleSelect(airport)}
-                        >
-                          <div className="flex items-baseline gap-4">
-                            <span className="text-2xl font-black text-teal-300 font-mono">
-                              {airport.iata}
-                            </span>
-                            <span className="text-slate-200 font-semibold">{airport.city}</span>
-                          </div>
-                          <span className="text-[10px] text-slate-500 uppercase font-bold">
-                            {airport.country}
-                          </span>
-                        </button>
-                      ))}
-                    </div>
+                      key={airport.iata}
+                      className="w-full text-left px-6 py-4 hover:bg-slate-900/80 flex items-center justify-between border-b border-slate-800 last:border-0"
+                      onClick={() => handleSelect(airport)}
+                    >
+                      <div className="flex items-baseline gap-4">
+                        <span className="text-2xl font-black text-teal-300 font-mono">
+                          {airport.iata}
+                        </span>
+                        <span className="text-slate-200 font-semibold">
+                          {language === 'it' ? airport.city_it : airport.city}
+                        </span>
+                      </div>
+                      <span className="text-[10px] text-slate-500 uppercase font-bold">
+                        {language === 'it' ? airport.country_it : airport.country}
+                      </span>
+                    </button>
+                  ))}
+                </div>
                   )}
                 </div>
               ) : (
@@ -282,7 +373,7 @@ export default function App() {
                   <div className="absolute inset-0 flex items-center justify-center">
                     <div className="w-56 h-32 rounded-3xl border border-teal-300/60 scan-ring flex items-center justify-center">
                       <span className="text-teal-200 text-[10px] font-black uppercase tracking-[0.4em]">
-                        Align Tag
+                        {t.align}
                       </span>
                     </div>
                   </div>
@@ -290,7 +381,7 @@ export default function App() {
                   {scanning && (
                     <div className="absolute inset-0 bg-slate-950/80 flex flex-col items-center justify-center text-white">
                       <Loader2 className="w-10 h-10 animate-spin text-teal-300 mb-2" />
-                      <p className="text-xs font-black uppercase tracking-[0.4em]">Identifying Tag...</p>
+                      <p className="text-xs font-black uppercase tracking-[0.4em]">{t.scanning}</p>
                     </div>
                   )}
 
@@ -301,7 +392,7 @@ export default function App() {
                       className="w-full bg-teal-300 text-slate-950 py-4 rounded-2xl font-black text-lg shadow-glow active:scale-95 transition-all flex items-center justify-center gap-3 disabled:opacity-50"
                     >
                       {scanning ? <Loader2 className="w-5 h-5 animate-spin" /> : <Camera className="w-5 h-5" />}
-                      {scanning ? 'SCANNING...' : 'SCAN TAG'}
+                      {scanning ? t.scanningBtn : t.scanTag}
                     </button>
                   </div>
 
@@ -318,7 +409,7 @@ export default function App() {
               <div className="glass rounded-3xl p-6">
                 <div className="flex items-center gap-3 text-slate-300">
                   <Sparkles className="w-4 h-4 text-teal-300" />
-                  <p className="text-xs uppercase tracking-[0.4em]">Hot Hubs</p>
+                  <p className="text-xs uppercase tracking-[0.4em]">{t.hubs}</p>
                 </div>
                 <div className="mt-4 flex flex-wrap gap-2">
                   {['LHR', 'JFK', 'DXB', 'SIN', 'CDG', 'BCN'].map(code => (
@@ -336,7 +427,7 @@ export default function App() {
               <div className="glass rounded-3xl p-6">
                 <div className="flex items-center gap-3 text-slate-300">
                   <History className="w-4 h-4 text-teal-300" />
-                  <p className="text-xs uppercase tracking-[0.4em]">Recent Lookups</p>
+                  <p className="text-xs uppercase tracking-[0.4em]">{t.recent}</p>
                 </div>
                 {history.length > 0 ? (
                   <div className="mt-4 grid grid-cols-2 gap-3">
@@ -350,14 +441,14 @@ export default function App() {
                           {h.iata}
                         </span>
                         <span className="text-slate-400 text-xs font-semibold truncate w-full text-left">
-                          {h.city}
+                          {language === 'it' ? h.city_it : h.city}
                         </span>
                       </button>
                     ))}
                   </div>
                 ) : (
                   <div className="mt-6 text-center text-slate-600 text-xs uppercase tracking-[0.4em]">
-                    Scanner Ready
+                    {t.ready}
                   </div>
                 )}
               </div>
@@ -373,7 +464,7 @@ export default function App() {
                       <MapPin className="text-teal-300 w-7 h-7" />
                     </div>
                     <div className="text-right">
-                      <span className="text-[10px] uppercase tracking-[0.5em] text-slate-400">Validated</span>
+                      <span className="text-[10px] uppercase tracking-[0.5em] text-slate-400">{t.validated}</span>
                       <div className="text-4xl font-black text-teal-200 font-mono tracking-[0.3em]">
                         {selectedAirport.iata}
                       </div>
@@ -381,19 +472,19 @@ export default function App() {
                   </div>
 
                   <div>
-                    <p className="text-xs uppercase tracking-[0.5em] text-slate-400">City</p>
+                    <p className="text-xs uppercase tracking-[0.5em] text-slate-400">{t.city}</p>
                     <h2 className="text-5xl md:text-6xl font-black leading-none mt-2">
-                      {selectedAirport.city}
+                      {language === 'it' ? selectedAirport.city_it : selectedAirport.city}
                     </h2>
                   </div>
 
                   <div className="border-t border-slate-800 pt-6 flex items-center justify-between">
                     <div>
-                      <p className="text-xs uppercase tracking-[0.5em] text-slate-400">Country</p>
+                      <p className="text-xs uppercase tracking-[0.5em] text-slate-400">{t.country}</p>
                       <div className="flex items-center gap-3 mt-2">
                         <Globe className="w-5 h-5 text-teal-200" />
                         <p className="text-2xl font-semibold text-slate-200">
-                          {selectedAirport.country}
+                          {language === 'it' ? selectedAirport.country_it : selectedAirport.country}
                         </p>
                       </div>
                     </div>
@@ -413,29 +504,29 @@ export default function App() {
                   <div className="bg-rose-500/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 border border-rose-500/30">
                     <Info className="text-rose-400 w-8 h-8" />
                   </div>
-                  <h3 className="text-2xl font-black text-slate-100 mb-2">SCAN ERROR</h3>
+                  <h3 className="text-2xl font-black text-slate-100 mb-2">{t.scanError}</h3>
                   <p className="text-rose-300 text-sm font-semibold px-2">{cameraError}</p>
                   <button
                     onClick={() => setCameraError(null)}
                     className="mt-6 text-teal-200 font-black uppercase text-xs tracking-[0.4em]"
                   >
-                    Dismiss
+                    {t.dismiss}
                   </button>
                 </div>
               ) : (
                 <div className="text-center text-slate-400">
                   <Plane className="w-16 h-16 text-slate-700 mx-auto mb-4" />
-                  <p className="text-xs uppercase tracking-[0.5em]">Ready for your tag</p>
+                  <p className="text-xs uppercase tracking-[0.5em]">{t.readyTag}</p>
                 </div>
               )}
             </div>
 
             <div className="glass rounded-[32px] p-6 text-sm text-slate-300">
-              <p className="uppercase tracking-[0.4em] text-xs text-slate-400">How it works</p>
+              <p className="uppercase tracking-[0.4em] text-xs text-slate-400">{t.how}</p>
               <ul className="mt-4 space-y-3">
-                <li>Type a 3-letter IATA code or scan the luggage tag.</li>
-                <li>Instant match pulls city and country from our ops list.</li>
-                <li>Recent lookups keep your handling workflow fast.</li>
+                <li>{t.how1}</li>
+                <li>{t.how2}</li>
+                <li>{t.how3}</li>
               </ul>
             </div>
           </aside>
