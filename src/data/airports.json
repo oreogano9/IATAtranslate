@@ -158,7 +158,7 @@
     "city": "Addis Ababa",
     "country": "Ethiopia",
     "country_it": "Etiopia",
-    "city_it": "Addis Ababa"
+    "city_it": "Addis Abeba"
   },
   {
     "iata": "ADE",
@@ -347,7 +347,7 @@
     "city": "Algiers",
     "country": "Algeria",
     "country_it": "Algeria",
-    "city_it": "Algiers"
+    "city_it": "Algeri"
   },
   {
     "iata": "ALP",
@@ -417,7 +417,7 @@
     "city": "Antwerp",
     "country": "Belgium",
     "country_it": "Belgio",
-    "city_it": "Antwerp"
+    "city_it": "Anversa"
   },
   {
     "iata": "ANS",
@@ -473,7 +473,7 @@
     "city": "Naples",
     "country": "United States",
     "country_it": "Stati Uniti",
-    "city_it": "Naples"
+    "city_it": "Napoli"
   },
   {
     "iata": "APW",
@@ -522,7 +522,7 @@
     "city": "Stockholm, Arlanda",
     "country": "Sweden",
     "country_it": "Svezia",
-    "city_it": "Stockholm, Arlanda"
+    "city_it": "Stoccolma, Arlanda"
   },
   {
     "iata": "ASC",
@@ -557,7 +557,7 @@
     "city": "Athens",
     "country": "Greece",
     "country_it": "Grecia",
-    "city_it": "Athens"
+    "city_it": "Atene"
   },
   {
     "iata": "ATL",
@@ -704,7 +704,7 @@
     "city": "Bucharest, Baneasa",
     "country": "Romania",
     "country_it": "Romania",
-    "city_it": "Bucharest, Baneasa"
+    "city_it": "Bucarest, Baneasa"
   },
   {
     "iata": "BCN",
@@ -753,7 +753,7 @@
     "city": "Belgrade",
     "country": "Serbia",
     "country_it": "Serbia",
-    "city_it": "Belgrade"
+    "city_it": "Belgrado"
   },
   {
     "iata": "BEL",
@@ -879,7 +879,7 @@
     "city": "Milan, Orio al Serio",
     "country": "Italy",
     "country_it": "Italia",
-    "city_it": "Milan, Orio al Serio"
+    "city_it": "Milano, Orio al Serio"
   },
   {
     "iata": "BHD",
@@ -963,7 +963,7 @@
     "city": "Beijing",
     "country": "China",
     "country_it": "Cina",
-    "city_it": "Beijing"
+    "city_it": "Pechino"
   },
   {
     "iata": "BKI",
@@ -1040,7 +1040,7 @@
     "city": "Stockholm, Bromma",
     "country": "Sweden",
     "country_it": "Svezia",
-    "city_it": "Stockholm, Bromma"
+    "city_it": "Stoccolma, Bromma"
   },
   {
     "iata": "BMI",
@@ -1201,7 +1201,7 @@
     "city": "Brussels",
     "country": "Belgium",
     "country_it": "Belgio",
-    "city_it": "Brussels"
+    "city_it": "Bruxelles"
   },
   {
     "iata": "BRW",
@@ -1222,7 +1222,7 @@
     "city": "Basle",
     "country": "France",
     "country_it": "Francia",
-    "city_it": "Basle"
+    "city_it": "Basilea"
   },
   {
     "iata": "BSR",
@@ -1299,7 +1299,7 @@
     "city": "Bucharest",
     "country": "Romania",
     "country_it": "Romania",
-    "city_it": "Bucharest"
+    "city_it": "Bucarest"
   },
   {
     "iata": "BUQ",
@@ -1383,7 +1383,7 @@
     "city": "Cairo",
     "country": "Egypt",
     "country_it": "Egitto",
-    "city_it": "Cairo"
+    "city_it": "Il Cairo"
   },
   {
     "iata": "CAJ",
@@ -1474,7 +1474,7 @@
     "city": "Paris, Charles de Gaulle",
     "country": "France",
     "country_it": "Francia",
-    "city_it": "Paris, Charles de Gaulle"
+    "city_it": "Parigi, Charles de Gaulle"
   },
   {
     "iata": "CDV",
@@ -1502,7 +1502,7 @@
     "city": "Sao Paulo, Congonhas",
     "country": "Brazil",
     "country_it": "Brasile",
-    "city_it": "Sao Paulo, Congonhas"
+    "city_it": "San Paolo, Congonhas"
   },
   {
     "iata": "CGI",
@@ -1516,14 +1516,14 @@
     "city": "Jakarta",
     "country": "Indonesia",
     "country_it": "Indonesia",
-    "city_it": "Jakarta"
+    "city_it": "Giacarta"
   },
   {
     "iata": "CGN",
     "city": "Cologne",
     "country": "Germany",
     "country_it": "Germania",
-    "city_it": "Cologne"
+    "city_it": "Colonia"
   },
   {
     "iata": "CGO",
@@ -1607,7 +1607,7 @@
     "city": "Rome, Clampino",
     "country": "Italy",
     "country_it": "Italia",
-    "city_it": "Rome, Clampino"
+    "city_it": "Roma, Ciampino"
   },
   {
     "iata": "CIC",
@@ -1817,7 +1817,7 @@
     "city": "Copenhagen",
     "country": "Denmark",
     "country_it": "Danimarca",
-    "city_it": "Copenhagen"
+    "city_it": "Copenaghen"
   },
   {
     "iata": "CPO",
@@ -1838,7 +1838,7 @@
     "city": "Cape Town",
     "country": "South Africa",
     "country_it": "Sudafrica",
-    "city_it": "Cape Town"
+    "city_it": "Città del Capo"
   },
   {
     "iata": "CPX",
@@ -2048,7 +2048,7 @@
     "city": "Damascus",
     "country": "Syria",
     "country_it": "Siria",
-    "city_it": "Damascus"
+    "city_it": "Damasco"
   },
   {
     "iata": "DAR",
@@ -2188,7 +2188,7 @@
     "city": "Moscow, Domodedovo",
     "country": "Russia",
     "country_it": "Russia",
-    "city_it": "Moscow, Domodedovo"
+    "city_it": "Mosca, Domodedovo"
   },
   {
     "iata": "DNV",
@@ -2216,7 +2216,7 @@
     "city": "Bali Island, Denpasar",
     "country": "Indonesia",
     "country_it": "Indonesia",
-    "city_it": "Bali Island, Denpasar"
+    "city_it": "Isola di Bali, Denpasar"
   },
   {
     "iata": "DRO",
@@ -2272,7 +2272,7 @@
     "city": "Dublin",
     "country": "Ireland",
     "country_it": "Irlanda",
-    "city_it": "Dublin"
+    "city_it": "Dublino"
   },
   {
     "iata": "DUR",
@@ -2335,7 +2335,7 @@
     "city": "Edinburgh",
     "country": "United Kingdom",
     "country_it": "Regno Unito",
-    "city_it": "Edinburgh"
+    "city_it": "Edimburgo"
   },
   {
     "iata": "EEK",
@@ -2608,7 +2608,7 @@
     "city": "Rome, Fiumicino",
     "country": "Italy",
     "country_it": "Italia",
-    "city_it": "Rome, Fiumicino"
+    "city_it": "Roma, Fiumicino"
   },
   {
     "iata": "FDF",
@@ -2671,7 +2671,7 @@
     "city": "Florence",
     "country": "Italy",
     "country_it": "Italia",
-    "city_it": "Florence"
+    "city_it": "Firenze"
   },
   {
     "iata": "FMO",
@@ -2755,7 +2755,7 @@
     "city": "Frankfurt",
     "country": "Germany",
     "country_it": "Germania",
-    "city_it": "Frankfurt"
+    "city_it": "Francoforte"
   },
   {
     "iata": "FRS",
@@ -2958,7 +2958,7 @@
     "city": "Genoa",
     "country": "Italy",
     "country_it": "Italia",
-    "city_it": "Genoa"
+    "city_it": "Genova"
   },
   {
     "iata": "GOM",
@@ -2972,7 +2972,7 @@
     "city": "Gothenburg",
     "country": "Sweden",
     "country_it": "Svezia",
-    "city_it": "Gothenburg"
+    "city_it": "Göteborg"
   },
   {
     "iata": "GOU",
@@ -3014,7 +3014,7 @@
     "city": "Sao Paulo, Guarulhos",
     "country": "Brazil",
     "country_it": "Brasile",
-    "city_it": "Sao Paulo, Guarulhos"
+    "city_it": "San Paolo, Guarulhos"
   },
   {
     "iata": "GRZ",
@@ -3070,7 +3070,7 @@
     "city": "Geneva",
     "country": "Switzerland",
     "country_it": "Svizzera",
-    "city_it": "Geneva"
+    "city_it": "Ginevra"
   },
   {
     "iata": "GXQ",
@@ -3105,7 +3105,7 @@
     "city": "Hanover",
     "country": "Germany",
     "country_it": "Germania",
-    "city_it": "Hanover"
+    "city_it": "Hannover"
   },
   {
     "iata": "HAK",
@@ -3154,7 +3154,7 @@
     "city": "Havana",
     "country": "Cuba",
     "country_it": "Cuba",
-    "city_it": "Havana"
+    "city_it": "L'Avana"
   },
   {
     "iata": "HCR",
@@ -3280,7 +3280,7 @@
     "city": "Jakarta, Halim Perdana Kusuma",
     "country": "Indonesia",
     "country_it": "Indonesia",
-    "city_it": "Jakarta, Halim Perdana Kusuma"
+    "city_it": "Giacarta, Halim Perdana Kusuma"
   },
   {
     "iata": "HMO",
@@ -3525,7 +3525,7 @@
     "city": "Easter Island",
     "country": "Chile",
     "country_it": "Cile",
-    "city_it": "Easter Island"
+    "city_it": "Isola di Pasqua"
   },
   {
     "iata": "IPH",
@@ -3707,7 +3707,7 @@
     "city": "Jakarta",
     "country": "Indonesia",
     "country_it": "Indonesia",
-    "city_it": "Jakarta"
+    "city_it": "Giacarta"
   },
   {
     "iata": "JNB",
@@ -3728,7 +3728,7 @@
     "city": "Johnston Island",
     "country": "Johnston Atoll",
     "country_it": "Johnston Atoll",
-    "city_it": "Johnston Island"
+    "city_it": "Isola Johnston"
   },
   {
     "iata": "JRO",
@@ -4267,7 +4267,7 @@
     "city": "Paris, Le Bourget",
     "country": "France",
     "country_it": "Francia",
-    "city_it": "Paris, Le Bourget"
+    "city_it": "Parigi, Le Bourget"
   },
   {
     "iata": "LBU",
@@ -4309,7 +4309,7 @@
     "city": "London, City Airport",
     "country": "United Kingdom",
     "country_it": "Regno Unito",
-    "city_it": "London, City Airport"
+    "city_it": "Londra, City Airport"
   },
   {
     "iata": "LDE",
@@ -4337,7 +4337,7 @@
     "city": "St. Petersburg",
     "country": "Russia",
     "country_it": "Russia",
-    "city_it": "St. Petersburg"
+    "city_it": "San Pietroburgo"
   },
   {
     "iata": "LEH",
@@ -4407,7 +4407,7 @@
     "city": "London, Gatwick",
     "country": "United Kingdom",
     "country_it": "Regno Unito",
-    "city_it": "London, Gatwick"
+    "city_it": "Londra, Gatwick"
   },
   {
     "iata": "LHE",
@@ -4421,7 +4421,7 @@
     "city": "London, Heathrow",
     "country": "United Kingdom",
     "country_it": "Regno Unito",
-    "city_it": "London, Heathrow"
+    "city_it": "Londra, Heathrow"
   },
   {
     "iata": "LHW",
@@ -4463,14 +4463,14 @@
     "city": "Milan, Linate",
     "country": "Italy",
     "country_it": "Italia",
-    "city_it": "Milan, Linate"
+    "city_it": "Milano, Linate"
   },
   {
     "iata": "LIS",
     "city": "Lisbon",
     "country": "Portugal",
     "country_it": "Portogallo",
-    "city_it": "Lisbon"
+    "city_it": "Lisbona"
   },
   {
     "iata": "LIT",
@@ -4547,7 +4547,7 @@
     "city": "London",
     "country": "United Kingdom",
     "country_it": "Regno Unito",
-    "city_it": "London"
+    "city_it": "Londra"
   },
   {
     "iata": "LOS",
@@ -4617,7 +4617,7 @@
     "city": "London, Luton",
     "country": "United Kingdom",
     "country_it": "Regno Unito",
-    "city_it": "London, Luton"
+    "city_it": "Londra, Luton"
   },
   {
     "iata": "LTO",
@@ -4659,7 +4659,7 @@
     "city": "Luxembourg",
     "country": "Luxembourg",
     "country_it": "Lussemburgo",
-    "city_it": "Luxembourg"
+    "city_it": "Lussemburgo"
   },
   {
     "iata": "LVI",
@@ -4904,7 +4904,7 @@
     "city": "Mexico City",
     "country": "Mexico",
     "country_it": "Messico",
-    "city_it": "Mexico City"
+    "city_it": "Città del Messico"
   },
   {
     "iata": "MFE",
@@ -4967,7 +4967,7 @@
     "city": "Milan",
     "country": "Italy",
     "country_it": "Italia",
-    "city_it": "Milan"
+    "city_it": "Milano"
   },
   {
     "iata": "MIU",
@@ -5128,7 +5128,7 @@
     "city": "Moscow",
     "country": "Russia",
     "country_it": "Russia",
-    "city_it": "Moscow"
+    "city_it": "Mosca"
   },
   {
     "iata": "MPB",
@@ -5177,7 +5177,7 @@
     "city": "Marseille",
     "country": "France",
     "country_it": "Francia",
-    "city_it": "Marseille"
+    "city_it": "Marsiglia"
   },
   {
     "iata": "MRU",
@@ -5198,7 +5198,7 @@
     "city": "Florence",
     "country": "United States",
     "country_it": "Stati Uniti",
-    "city_it": "Florence"
+    "city_it": "Firenze"
   },
   {
     "iata": "MSN",
@@ -5268,7 +5268,7 @@
     "city": "Munich",
     "country": "Germany",
     "country_it": "Germania",
-    "city_it": "Munich"
+    "city_it": "Monaco di Baviera"
   },
   {
     "iata": "MUN",
@@ -5303,7 +5303,7 @@
     "city": "Milan, Malpensa",
     "country": "Italy",
     "country_it": "Italia",
-    "city_it": "Milan, Malpensa"
+    "city_it": "Milano, Malpensa"
   },
   {
     "iata": "MYJ",
@@ -5352,7 +5352,7 @@
     "city": "Naples",
     "country": "Italy",
     "country_it": "Italia",
-    "city_it": "Naples"
+    "city_it": "Napoli"
   },
   {
     "iata": "NAS",
@@ -5373,7 +5373,7 @@
     "city": "Beijing, Nanyuan Airport",
     "country": "China",
     "country_it": "Cina",
-    "city_it": "Beijing, Nanyuan Airport"
+    "city_it": "Pechino, Nanyuan"
   },
   {
     "iata": "NBO",
@@ -5387,7 +5387,7 @@
     "city": "Nice",
     "country": "France",
     "country_it": "Francia",
-    "city_it": "Nice"
+    "city_it": "Nizza"
   },
   {
     "iata": "NCL",
@@ -5506,7 +5506,7 @@
     "city": "Tokyo, Narita Airport",
     "country": "Japan",
     "country_it": "Giappone",
-    "city_it": "Tokyo, Narita Airport"
+    "city_it": "Tokyo, Narita"
   },
   {
     "iata": "NSK",
@@ -5527,7 +5527,7 @@
     "city": "Nuremberg",
     "country": "Germany",
     "country_it": "Germania",
-    "city_it": "Nuremberg"
+    "city_it": "Norimberga"
   },
   {
     "iata": "NUL",
@@ -5695,7 +5695,7 @@
     "city": "Paris, Orly",
     "country": "France",
     "country_it": "Francia",
-    "city_it": "Paris, Orly"
+    "city_it": "Parigi, Orly"
   },
   {
     "iata": "OSA",
@@ -5737,7 +5737,7 @@
     "city": "Bucharest, Otopeni",
     "country": "Romania",
     "country_it": "Romania",
-    "city_it": "Bucharest, Otopeni"
+    "city_it": "Bucarest, Otopeni"
   },
   {
     "iata": "OTZ",
@@ -5779,7 +5779,7 @@
     "city": "Panama City, Paitilla",
     "country": "Panama",
     "country_it": "Panamá",
-    "city_it": "Panama City, Paitilla"
+    "city_it": "Città di Panama, Paitilla"
   },
   {
     "iata": "PAP",
@@ -5793,7 +5793,7 @@
     "city": "Paris",
     "country": "France",
     "country_it": "Francia",
-    "city_it": "Paris"
+    "city_it": "Parigi"
   },
   {
     "iata": "PBC",
@@ -5856,7 +5856,7 @@
     "city": "Beijing",
     "country": "China",
     "country_it": "Cina",
-    "city_it": "Beijing"
+    "city_it": "Pechino"
   },
   {
     "iata": "PEM",
@@ -5891,7 +5891,7 @@
     "city": "Panama City",
     "country": "United States",
     "country_it": "Stati Uniti",
-    "city_it": "Panama City"
+    "city_it": "Città di Panama"
   },
   {
     "iata": "PFO",
@@ -6045,7 +6045,7 @@
     "city": "Palma de Mallorca",
     "country": "Spain",
     "country_it": "Spagna",
-    "city_it": "Palma de Mallorca"
+    "city_it": "Palma di Maiorca"
   },
   {
     "iata": "PMO",
@@ -6164,7 +6164,7 @@
     "city": "Prague",
     "country": "Czech Republic",
     "country_it": "Cechia",
-    "city_it": "Prague"
+    "city_it": "Praga"
   },
   {
     "iata": "PSA",
@@ -6220,7 +6220,7 @@
     "city": "Point à Pitre",
     "country": "Guadeloupe",
     "country_it": "Guadalupa",
-    "city_it": "Point à Pitre"
+    "city_it": "Pointe-à-Pitre"
   },
   {
     "iata": "PTU",
@@ -6234,7 +6234,7 @@
     "city": "Panama City",
     "country": "Panama",
     "country_it": "Panamá",
-    "city_it": "Panama City"
+    "city_it": "Città di Panama"
   },
   {
     "iata": "PUF",
@@ -6395,7 +6395,7 @@
     "city": "Reykjavik",
     "country": "Iceland",
     "country_it": "Islanda",
-    "city_it": "Reykjavik"
+    "city_it": "Reykjavík"
   },
   {
     "iata": "RFD",
@@ -6451,7 +6451,7 @@
     "city": "Copenhagen, Roskilde",
     "country": "Denmark",
     "country_it": "Danimarca",
-    "city_it": "Copenhagen, Roskilde"
+    "city_it": "Copenaghen, Roskilde"
   },
   {
     "iata": "RMI",
@@ -6500,7 +6500,7 @@
     "city": "Rome",
     "country": "Italy",
     "country_it": "Italia",
-    "city_it": "Rome"
+    "city_it": "Roma"
   },
   {
     "iata": "ROP",
@@ -6605,7 +6605,7 @@
     "city": "Sao Paulo",
     "country": "Brazil",
     "country_it": "Brasile",
-    "city_it": "Sao Paulo"
+    "city_it": "San Paolo"
   },
   {
     "iata": "SAP",
@@ -6794,7 +6794,7 @@
     "city": "Seoul",
     "country": "South Korea",
     "country_it": "Corea del Sud",
-    "city_it": "Seoul"
+    "city_it": "Seul"
   },
   {
     "iata": "SEZ",
@@ -6836,7 +6836,7 @@
     "city": "Ho Chi Minh City",
     "country": "Vietnam",
     "country_it": "Vietnam",
-    "city_it": "Ho Chi Minh City"
+    "city_it": "Ho Chi Minh"
   },
   {
     "iata": "SGR",
@@ -7179,14 +7179,14 @@
     "city": "London, Stansted",
     "country": "United Kingdom",
     "country_it": "Regno Unito",
-    "city_it": "London, Stansted"
+    "city_it": "Londra, Stansted"
   },
   {
     "iata": "STO",
     "city": "Stockholm",
     "country": "Sweden",
     "country_it": "Svezia",
-    "city_it": "Stockholm"
+    "city_it": "Stoccolma"
   },
   {
     "iata": "STR",
@@ -7242,14 +7242,14 @@
     "city": "Moscow, Sheremetyevo",
     "country": "Russia",
     "country_it": "Russia",
-    "city_it": "Moscow, Sheremetyevo"
+    "city_it": "Mosca, Sheremetyevo"
   },
   {
     "iata": "SVQ",
     "city": "Seville",
     "country": "Spain",
     "country_it": "Spagna",
-    "city_it": "Seville"
+    "city_it": "Siviglia"
   },
   {
     "iata": "SVS",
@@ -7298,7 +7298,7 @@
     "city": "Milan, Segrate",
     "country": "Italy",
     "country_it": "Italia",
-    "city_it": "Milan, Segrate"
+    "city_it": "Milano, Segrate"
   },
   {
     "iata": "SXB",
@@ -7515,7 +7515,7 @@
     "city": "Tehran",
     "country": "Iran",
     "country_it": "Iran",
-    "city_it": "Tehran"
+    "city_it": "Teheran"
   },
   {
     "iata": "TIF",
@@ -7620,7 +7620,7 @@
     "city": "Sao Tome Island",
     "country": "São Tomé and Principe",
     "country_it": "São Tomé e Príncipe",
-    "city_it": "Sao Tome Island"
+    "city_it": "Isola di São Tomé"
   },
   {
     "iata": "TMT",
@@ -7732,7 +7732,7 @@
     "city": "Turin",
     "country": "Italy",
     "country_it": "Italia",
-    "city_it": "Turin"
+    "city_it": "Torino"
   },
   {
     "iata": "TRS",
@@ -7767,7 +7767,7 @@
     "city": "Venice, Treviso",
     "country": "Italy",
     "country_it": "Italia",
-    "city_it": "Venice, Treviso"
+    "city_it": "Venezia, Treviso"
   },
   {
     "iata": "TSN",
@@ -8019,14 +8019,14 @@
     "city": "Venice",
     "country": "Italy",
     "country_it": "Italia",
-    "city_it": "Venice"
+    "city_it": "Venezia"
   },
   {
     "iata": "VCP",
     "city": "Sao Paulo, Viracopos",
     "country": "Brazil",
     "country_it": "Brasile",
-    "city_it": "Sao Paulo, Viracopos"
+    "city_it": "San Paolo, Viracopos"
   },
   {
     "iata": "VEE",
@@ -8075,7 +8075,7 @@
     "city": "Moscow, Vnukovo",
     "country": "Russia",
     "country_it": "Russia",
-    "city_it": "Moscow, Vnukovo"
+    "city_it": "Mosca, Vnukovo"
   },
   {
     "iata": "VLC",
@@ -8208,7 +8208,7 @@
     "city": "Warsaw",
     "country": "Poland",
     "country_it": "Polonia",
-    "city_it": "Warsaw"
+    "city_it": "Varsavia"
   },
   {
     "iata": "WBQ",
@@ -8663,7 +8663,7 @@
     "city": "London",
     "country": "Canada",
     "country_it": "Canada",
-    "city_it": "London"
+    "city_it": "Londra"
   },
   {
     "iata": "YXY",
@@ -8789,6 +8789,6 @@
     "city": "Zurich",
     "country": "Switzerland",
     "country_it": "Svizzera",
-    "city_it": "Zurich"
+    "city_it": "Zurigo"
   }
 ]

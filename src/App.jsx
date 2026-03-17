@@ -35,7 +35,7 @@ async function fetchWithRetry(url, options, retries = 5, backoff = 1000) {
 
 export default function App() {
   const [mode, setMode] = useState('keyboard'); // 'keyboard' or 'camera'
-  const [language, setLanguage] = useState('en'); // 'en' or 'it'
+  const [language, setLanguage] = useState('it'); // 'en' or 'it'
   const [query, setQuery] = useState('');
   const [selectedAirport, setSelectedAirport] = useState(null);
   const [showSuggestions, setShowSuggestions] = useState(false);
