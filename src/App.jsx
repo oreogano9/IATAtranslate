@@ -521,14 +521,6 @@ export default function App() {
               )}
             </div>
 
-            <div className="glass rounded-[32px] p-6 text-sm text-slate-300">
-              <p className="uppercase tracking-[0.4em] text-xs text-slate-400">{t.how}</p>
-              <ul className="mt-4 space-y-3">
-                <li>{t.how1}</li>
-                <li>{t.how2}</li>
-                <li>{t.how3}</li>
-              </ul>
-            </div>
           </aside>
         </div>
       </div>
