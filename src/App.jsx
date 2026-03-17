@@ -149,6 +149,10 @@ export default function App() {
     } else {
       setSelectedAirport(null);
     }
+
+    if (val.length === 3) {
+      e.target.blur();
+    }
   };
 
   // Start/Stop Camera logic
