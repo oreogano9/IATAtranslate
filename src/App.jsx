@@ -39,7 +39,15 @@ export default function App() {
   const [query, setQuery] = useState('');
   const [selectedAirport, setSelectedAirport] = useState(null);
   const [showSuggestions, setShowSuggestions] = useState(false);
-  const [history, setHistory] = useState([]);
+  const [history, setHistory] = useState(() => {
+    if (typeof window === 'undefined') return [];
+    try {
+      const raw = window.localStorage.getItem('iata-history');
+      return raw ? JSON.parse(raw) : [];
+    } catch {
+      return [];
+    }
+  });
   const [scanning, setScanning] = useState(false);
   const [cameraError, setCameraError] = useState(null);
   const [flashMessage, setFlashMessage] = useState(null);
@@ -137,6 +145,15 @@ export default function App() {
       return [airport, ...filtered].slice(0, 6);
     });
   };
+
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+    try {
+      window.localStorage.setItem('iata-history', JSON.stringify(history));
+    } catch {
+      // Ignore storage failures (private mode, quota, etc.)
+    }
+  }, [history]);
 
   const handleInputChange = (e) => {
     const val = e.target.value.toUpperCase().slice(0, 3);
