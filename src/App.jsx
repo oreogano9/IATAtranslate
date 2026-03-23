@@ -94,8 +94,65 @@ const MAP_COUNTRY_ALIASES = {
   'Bosnia and Herzegovina': 'Bosnia and Herz.',
 };
 
+const COORDINATE_FALLBACK_CODES = {
+  AHT: 'ADK',
+  BHZ: 'CNF',
+  BJS: 'PEK',
+  BUE: 'EZE',
+  BUH: 'OTP',
+  CAS: 'CMN',
+  CHI: 'ORD',
+  CUX: 'CRP',
+  DTT: 'DTW',
+  EMB: 'SFO',
+  FBU: 'OSL',
+  GEN: 'OSL',
+  HAG: 'DTM',
+  JAJ: 'ATL',
+  JAO: 'ATL',
+  JDM: 'MIA',
+  JKT: 'CGK',
+  JON: 'MAJ',
+  LON: 'LHR',
+  MIL: 'MXP',
+  MLH: 'BSL',
+  MMA: 'MMX',
+  MOW: 'SVO',
+  NYC: 'JFK',
+  OSA: 'KIX',
+  PAR: 'CDG',
+  REK: 'KEF',
+  RIO: 'GIG',
+  ROM: 'FCO',
+  RSC: 'RIX',
+  SAO: 'GRU',
+  SDA: 'BGW',
+  SDV: 'TLV',
+  SEL: 'ICN',
+  SPK: 'CTS',
+  SPL: 'AMS',
+  STO: 'ARN',
+  SWK: 'LIN',
+  SXF: 'BER',
+  TCI: 'TFS',
+  THF: 'BER',
+  TSO: 'ISC',
+  TXL: 'BER',
+  TYO: 'HND',
+  WAS: 'IAD',
+  YEA: 'YEG',
+  YED: 'YEG',
+  YMQ: 'YUL',
+  YTO: 'YYZ',
+  YXD: 'YEG',
+};
+
 function getMapCountryName(country) {
   return MAP_COUNTRY_ALIASES[country] || country;
+}
+
+function getAirportCoordinates(iata) {
+  return AIRPORT_COORDINATES[iata] || AIRPORT_COORDINATES[COORDINATE_FALLBACK_CODES[iata]] || null;
 }
 
 function collectCoordinates(geometry, points = []) {
@@ -439,7 +496,7 @@ export default function App() {
         const { city, airport: airportName } = parseCity(cityField);
         const emoji = getFlag(selectedAirport.country);
         const countryName = language === 'it' ? selectedAirport.country_it : selectedAirport.country;
-        const coordinates = AIRPORT_COORDINATES[selectedAirport.iata];
+        const coordinates = getAirportCoordinates(selectedAirport.iata);
         const mapCountryName = getMapCountryName(selectedAirport.country);
         const selectedFeature = WORLD_GEOJSON.features.find(
           (feature) => feature.properties?.name === mapCountryName
