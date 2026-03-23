@@ -3,7 +3,10 @@ import {
   Search, Plane, MapPin, Globe, X, History, RefreshCw, Trash2, Settings, Copy, Plus
 } from 'lucide-react';
 
-import AIRPORT_DATA from './data/airports.json';
+import BASE_AIRPORT_DATA from './data/airports.json';
+import AIRPORT_DATA_V2 from './data/airportsv2.js';
+
+const AIRPORT_DATA = [...BASE_AIRPORT_DATA, ...AIRPORT_DATA_V2];
 
 // ── Country name → ISO 3166-1 alpha-2 ──────────────────────────────────────
 const CC = {
