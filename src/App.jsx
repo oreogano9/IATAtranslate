@@ -108,7 +108,7 @@ export default function App() {
   const copy = {
     en: {
       title: 'Translate IATA Code',
-      subtitle: 'Search by code or city name.',
+      subtitle: 'Search by code, city, or country.',
       inputLabel: 'Code or City',
       placeholder: 'MXP',
       settings: 'Settings',
@@ -121,7 +121,6 @@ export default function App() {
       readyTag: 'Type a code or city name',
       clearHistory: 'Clear',
       unknownTitle: 'Code not found',
-      unknownBody: 'Save this IATA code to the missing-codes list?',
       saveCode: 'Save code',
       dismiss: 'Dismiss',
       missingTitle: 'Missing IATA Codes',
@@ -132,7 +131,7 @@ export default function App() {
     },
     it: {
       title: 'Traduci codice IATA',
-      subtitle: 'Cerca per codice o città.',
+      subtitle: 'Cerca per codice, città o paese.',
       inputLabel: 'Codice o Città',
       placeholder: 'MXP',
       settings: 'Impostazioni',
@@ -145,7 +144,6 @@ export default function App() {
       readyTag: 'Cerca un codice o una città',
       clearHistory: 'Cancella',
       unknownTitle: 'Codice non trovato',
-      unknownBody: 'Vuoi salvare questo codice IATA nella lista dei codici mancanti?',
       saveCode: 'Salva codice',
       dismiss: 'Chiudi',
       missingTitle: 'Codici IATA Mancanti',
@@ -173,7 +171,9 @@ export default function App() {
       ? AIRPORT_DATA.filter(a =>
           !codeSet.has(a.iata) && (
             a.city.toLowerCase().includes(lower) ||
-            a.city_it.toLowerCase().includes(lower)
+            a.city_it.toLowerCase().includes(lower) ||
+            a.country.toLowerCase().includes(lower) ||
+            a.country_it.toLowerCase().includes(lower)
           )
         )
       : [];
@@ -225,7 +225,6 @@ export default function App() {
       const exactMatch = AIRPORT_DATA.find(a => a.iata === val);
       if (exactMatch) { handleSelect(exactMatch); return; }
       setSelectedAirport(null);
-      setShowSuggestions(false);
       setMissingPromptCode(val);
       e.target.blur();
       return;
@@ -298,8 +297,17 @@ export default function App() {
           onChange={handleInputChange}
           onFocus={() => setShowSuggestions(true)}
         />
+        {missingPromptCode && query.length === 3 && (
+          <button
+            onClick={() => saveMissingCode(missingPromptCode)}
+            className="absolute right-16 top-1/2 -translate-y-1/2 p-2 bg-amber-500/15 rounded-xl text-amber-300 border border-amber-400/40 hover:bg-amber-500/20 transition"
+            title={t.saveCode}
+          >
+            <Plus className="w-5 h-5" />
+          </button>
+        )}
         {query && (
-          <button onClick={() => { setQuery(''); setSelectedAirport(null); }}
+          <button onClick={() => { setQuery(''); setSelectedAirport(null); setMissingPromptCode(null); }}
             className="absolute right-4 top-1/2 -translate-y-1/2 p-2 bg-slate-900 rounded-xl text-slate-400 border border-slate-700">
             <X className="w-5 h-5" />
           </button>
@@ -417,33 +425,6 @@ export default function App() {
             </div>
           </div>
         );
-      })() : missingPromptCode ? (
-        <div className="space-y-6">
-          <div className="bg-amber-300/10 p-4 rounded-2xl border border-amber-300/30 w-fit">
-            <Plus className="text-amber-200 w-7 h-7" />
-          </div>
-          <div>
-            <p className="text-xs uppercase tracking-[0.5em] text-slate-400">{t.unknownTitle}</p>
-            <h2 className="text-5xl md:text-6xl font-black leading-none mt-1 text-amber-200 font-mono">
-              {missingPromptCode}
-            </h2>
-            <p className="text-slate-300 mt-3">{t.unknownBody}</p>
-          </div>
-          <div className="flex flex-wrap gap-3">
-            <button
-              onClick={() => saveMissingCode(missingPromptCode)}
-              className="px-5 py-3 rounded-2xl bg-teal-300 text-slate-950 font-black uppercase tracking-[0.2em]"
-            >
-              {t.saveCode}
-            </button>
-            <button
-              onClick={() => setMissingPromptCode(null)}
-              className="px-5 py-3 rounded-2xl bg-slate-900 border border-slate-800 text-slate-300 font-black uppercase tracking-[0.2em]"
-            >
-              {t.dismiss}
-            </button>
-          </div>
-        </div>
       ) : (
         <div className="text-center text-slate-400">
           <Plane className="w-16 h-16 text-slate-700 mx-auto mb-4" />
