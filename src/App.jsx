@@ -483,11 +483,11 @@ export default function App() {
             <div className="border-t border-slate-800 pt-6">
               <p className="text-xs uppercase tracking-[0.5em] text-slate-400 mb-4">{t.map}</p>
               {coordinates ? (
-                <div className="bg-slate-950/60 border border-slate-800 rounded-[28px] overflow-hidden">
+                <div className="bg-slate-950/60 border border-slate-800 rounded-[28px] overflow-hidden aspect-[4/3]">
                   <ComposableMap
-                    projection="geoEqualEarth"
+                    projection="geoMercator"
                     projectionConfig={{ scale: 155 }}
-                    className="w-full h-auto"
+                    className="w-full h-full"
                   >
                     <ZoomableGroup center={mapViewport.center} zoom={mapViewport.zoom} translateExtent={[[-200, -120], [1000, 700]]}>
                       <Geographies geography={WORLD_GEOJSON}>
@@ -514,8 +514,7 @@ export default function App() {
                         }
                       </Geographies>
                       <Marker coordinates={[coordinates.lon, coordinates.lat]}>
-                        <circle r={10} fill="#f97316" opacity={0.18} />
-                        <circle r={4.5} fill="#f97316" stroke="#fff7ed" strokeWidth={1.2} />
+                        <circle r={2.75} fill="#f97316" />
                       </Marker>
                     </ZoomableGroup>
                   </ComposableMap>
