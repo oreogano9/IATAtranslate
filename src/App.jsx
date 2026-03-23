@@ -292,15 +292,6 @@ export default function App() {
           onChange={handleInputChange}
           onFocus={() => setShowSuggestions(true)}
         />
-        {missingPromptCode && query.length === 3 && (
-          <button
-            onClick={() => saveMissingCode(missingPromptCode)}
-            className="absolute right-16 top-1/2 -translate-y-1/2 p-2 bg-amber-500/15 rounded-xl text-amber-300 border border-amber-400/40 hover:bg-amber-500/20 transition"
-            title={t.saveCode}
-          >
-            <Plus className="w-5 h-5" />
-          </button>
-        )}
         {query && (
           <button onClick={() => { setQuery(''); setSelectedAirport(null); setMissingPromptCode(null); }}
             className="absolute right-4 top-1/2 -translate-y-1/2 p-2 bg-slate-900 rounded-xl text-slate-400 border border-slate-700">
