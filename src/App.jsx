@@ -2,9 +2,12 @@ import React, { useState, useMemo, useRef, useEffect } from 'react';
 import {
   Search, Plane, MapPin, Globe, X, History, RefreshCw, Trash2, Copy, Plus
 } from 'lucide-react';
+import { ComposableMap, Geographies, Geography, Marker } from 'react-simple-maps';
 
 import BASE_AIRPORT_DATA from './data/airports.json';
 import AIRPORT_DATA_V2 from './data/airportsv2.js';
+import AIRPORT_COORDINATES from './data/airportCoordinates.js';
+import WORLD_GEOJSON from './data/world-countries.json';
 
 const AIRPORT_DATA = [...BASE_AIRPORT_DATA, ...AIRPORT_DATA_V2];
 
@@ -84,6 +87,17 @@ function parseCity(cityField) {
   return { city: cityField.slice(0, i).trim(), airport: cityField.slice(i + 1).trim() };
 }
 
+const MAP_COUNTRY_ALIASES = {
+  'United States': 'USA',
+  'United Kingdom': 'England',
+  "Côte d'Ivoire": 'Ivory Coast',
+  'Bosnia and Herzegovina': 'Bosnia and Herz.',
+};
+
+function getMapCountryName(country) {
+  return MAP_COUNTRY_ALIASES[country] || country;
+}
+
 export default function App() {
   const [language, setLanguage] = useState('it');
   const [page, setPage] = useState('main');
@@ -121,6 +135,8 @@ export default function App() {
       city: 'City',
       airport: 'Airport',
       country: 'Country',
+      map: 'Map',
+      mapFallback: 'Map unavailable for this code.',
       readyTag: 'Type a code, city, or country',
       clearHistory: 'Clear',
       unknownTitle: 'Code not found',
@@ -144,6 +160,8 @@ export default function App() {
       city: 'Città',
       airport: 'Aeroporto',
       country: 'Paese',
+      map: 'Mappa',
+      mapFallback: 'Mappa non disponibile per questo codice.',
       readyTag: 'Cerca un codice, una città o un paese',
       clearHistory: 'Cancella',
       unknownTitle: 'Codice non trovato',
@@ -375,6 +393,8 @@ export default function App() {
         const { city, airport: airportName } = parseCity(cityField);
         const emoji = getFlag(selectedAirport.country);
         const countryName = language === 'it' ? selectedAirport.country_it : selectedAirport.country;
+        const coordinates = AIRPORT_COORDINATES[selectedAirport.iata];
+        const mapCountryName = getMapCountryName(selectedAirport.country);
         return (
           <div className="space-y-6">
             <div className="flex items-start justify-between">
@@ -408,6 +428,51 @@ export default function App() {
                 className="p-3 bg-slate-900 rounded-2xl text-slate-400 hover:text-teal-200 border border-slate-800 transition">
                 <RefreshCw className="w-5 h-5" />
               </button>
+            </div>
+
+            <div className="border-t border-slate-800 pt-6">
+              <p className="text-xs uppercase tracking-[0.5em] text-slate-400 mb-4">{t.map}</p>
+              {coordinates ? (
+                <div className="bg-slate-950/60 border border-slate-800 rounded-[28px] overflow-hidden">
+                  <ComposableMap
+                    projection="geoEqualEarth"
+                    projectionConfig={{ scale: 155 }}
+                    className="w-full h-auto"
+                  >
+                    <Geographies geography={WORLD_GEOJSON}>
+                      {({ geographies }) =>
+                        geographies.map((geo) => {
+                          const isSelected = geo.properties?.name === mapCountryName;
+                          return (
+                            <Geography
+                              key={geo.rsmKey}
+                              geography={geo}
+                              style={{
+                                default: {
+                                  fill: isSelected ? '#134e4a' : '#0f172a',
+                                  stroke: isSelected ? '#5eead4' : '#334155',
+                                  strokeWidth: isSelected ? 0.9 : 0.45,
+                                  outline: 'none',
+                                },
+                                hover: { fill: isSelected ? '#134e4a' : '#0f172a', outline: 'none' },
+                                pressed: { fill: isSelected ? '#134e4a' : '#0f172a', outline: 'none' },
+                              }}
+                            />
+                          );
+                        })
+                      }
+                    </Geographies>
+                    <Marker coordinates={[coordinates.lon, coordinates.lat]}>
+                      <circle r={10} fill="#f97316" opacity={0.18} />
+                      <circle r={4.5} fill="#f97316" stroke="#fff7ed" strokeWidth={1.2} />
+                    </Marker>
+                  </ComposableMap>
+                </div>
+              ) : (
+                <div className="bg-slate-950/60 border border-slate-800 rounded-[28px] p-6 text-sm text-slate-500">
+                  {t.mapFallback}
+                </div>
+              )}
             </div>
           </div>
         );
