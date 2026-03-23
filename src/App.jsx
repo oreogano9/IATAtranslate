@@ -2,7 +2,7 @@ import React, { useState, useMemo, useRef, useEffect } from 'react';
 import {
   Search, Plane, MapPin, Globe, X, History, RefreshCw, Trash2, Copy, Plus
 } from 'lucide-react';
-import { ComposableMap, Geographies, Geography, Marker } from 'react-simple-maps';
+import { ComposableMap, Geographies, Geography, Marker, ZoomableGroup } from 'react-simple-maps';
 
 import BASE_AIRPORT_DATA from './data/airports.json';
 import AIRPORT_DATA_V2 from './data/airportsv2.js';
@@ -96,6 +96,52 @@ const MAP_COUNTRY_ALIASES = {
 
 function getMapCountryName(country) {
   return MAP_COUNTRY_ALIASES[country] || country;
+}
+
+function collectCoordinates(geometry, points = []) {
+  if (!geometry) return points;
+  if (geometry.type === 'Point') {
+    points.push(geometry.coordinates);
+    return points;
+  }
+  const walk = (coords) => {
+    if (!Array.isArray(coords)) return;
+    if (typeof coords[0] === 'number' && typeof coords[1] === 'number') {
+      points.push(coords);
+      return;
+    }
+    coords.forEach(walk);
+  };
+  walk(geometry.coordinates);
+  return points;
+}
+
+function getFeatureViewport(feature, fallbackCoordinates) {
+  const points = collectCoordinates(feature?.geometry, []);
+  if (!points.length) {
+    return {
+      center: fallbackCoordinates ? [fallbackCoordinates.lon, fallbackCoordinates.lat] : [0, 20],
+      zoom: 1.6,
+    };
+  }
+
+  let minLon = Infinity;
+  let maxLon = -Infinity;
+  let minLat = Infinity;
+  let maxLat = -Infinity;
+
+  points.forEach(([lon, lat]) => {
+    minLon = Math.min(minLon, lon);
+    maxLon = Math.max(maxLon, lon);
+    minLat = Math.min(minLat, lat);
+    maxLat = Math.max(maxLat, lat);
+  });
+
+  const center = [(minLon + maxLon) / 2, (minLat + maxLat) / 2];
+  const span = Math.max(maxLon - minLon, maxLat - minLat, 2);
+  const zoom = Math.min(8, Math.max(2, 85 / span));
+
+  return { center, zoom };
 }
 
 export default function App() {
@@ -395,6 +441,10 @@ export default function App() {
         const countryName = language === 'it' ? selectedAirport.country_it : selectedAirport.country;
         const coordinates = AIRPORT_COORDINATES[selectedAirport.iata];
         const mapCountryName = getMapCountryName(selectedAirport.country);
+        const selectedFeature = WORLD_GEOJSON.features.find(
+          (feature) => feature.properties?.name === mapCountryName
+        );
+        const mapViewport = getFeatureViewport(selectedFeature, coordinates);
         return (
           <div className="space-y-6">
             <div className="flex items-start justify-between">
@@ -439,33 +489,35 @@ export default function App() {
                     projectionConfig={{ scale: 155 }}
                     className="w-full h-auto"
                   >
-                    <Geographies geography={WORLD_GEOJSON}>
-                      {({ geographies }) =>
-                        geographies.map((geo) => {
-                          const isSelected = geo.properties?.name === mapCountryName;
-                          return (
-                            <Geography
-                              key={geo.rsmKey}
-                              geography={geo}
-                              style={{
-                                default: {
-                                  fill: isSelected ? '#134e4a' : '#0f172a',
-                                  stroke: isSelected ? '#5eead4' : '#334155',
-                                  strokeWidth: isSelected ? 0.9 : 0.45,
-                                  outline: 'none',
-                                },
-                                hover: { fill: isSelected ? '#134e4a' : '#0f172a', outline: 'none' },
-                                pressed: { fill: isSelected ? '#134e4a' : '#0f172a', outline: 'none' },
-                              }}
-                            />
-                          );
-                        })
-                      }
-                    </Geographies>
-                    <Marker coordinates={[coordinates.lon, coordinates.lat]}>
-                      <circle r={10} fill="#f97316" opacity={0.18} />
-                      <circle r={4.5} fill="#f97316" stroke="#fff7ed" strokeWidth={1.2} />
-                    </Marker>
+                    <ZoomableGroup center={mapViewport.center} zoom={mapViewport.zoom} translateExtent={[[-200, -120], [1000, 700]]}>
+                      <Geographies geography={WORLD_GEOJSON}>
+                        {({ geographies }) =>
+                          geographies.map((geo) => {
+                            const isSelected = geo.properties?.name === mapCountryName;
+                            return (
+                              <Geography
+                                key={geo.rsmKey}
+                                geography={geo}
+                                style={{
+                                  default: {
+                                    fill: isSelected ? '#134e4a' : '#0f172a',
+                                    stroke: isSelected ? '#5eead4' : '#334155',
+                                    strokeWidth: isSelected ? 0.9 : 0.45,
+                                    outline: 'none',
+                                  },
+                                  hover: { fill: isSelected ? '#134e4a' : '#0f172a', outline: 'none' },
+                                  pressed: { fill: isSelected ? '#134e4a' : '#0f172a', outline: 'none' },
+                                }}
+                              />
+                            );
+                          })
+                        }
+                      </Geographies>
+                      <Marker coordinates={[coordinates.lon, coordinates.lat]}>
+                        <circle r={10} fill="#f97316" opacity={0.18} />
+                        <circle r={4.5} fill="#f97316" stroke="#fff7ed" strokeWidth={1.2} />
+                      </Marker>
+                    </ZoomableGroup>
                   </ComposableMap>
                 </div>
               ) : (
