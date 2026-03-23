@@ -1,6 +1,6 @@
 import React, { useState, useMemo, useRef, useEffect } from 'react';
 import {
-  Search, Plane, MapPin, Globe, X, History, RefreshCw, Trash2
+  Search, Plane, MapPin, Globe, X, History, RefreshCw, Trash2, Settings, Copy, Plus
 } from 'lucide-react';
 
 import AIRPORT_DATA from './data/airports.json';
@@ -83,13 +83,22 @@ function parseCity(cityField) {
 
 export default function App() {
   const [language, setLanguage] = useState('it');
+  const [page, setPage] = useState('main');
   const [query, setQuery] = useState('');
   const [selectedAirport, setSelectedAirport] = useState(null);
   const [showSuggestions, setShowSuggestions] = useState(false);
+  const [missingPromptCode, setMissingPromptCode] = useState(null);
   const [history, setHistory] = useState(() => {
     if (typeof window === 'undefined') return [];
     try {
       const raw = window.localStorage.getItem('iata-history');
+      return raw ? JSON.parse(raw) : [];
+    } catch { return []; }
+  });
+  const [missingCodes, setMissingCodes] = useState(() => {
+    if (typeof window === 'undefined') return [];
+    try {
+      const raw = window.localStorage.getItem('iata-missing-codes');
       return raw ? JSON.parse(raw) : [];
     } catch { return []; }
   });
@@ -102,6 +111,8 @@ export default function App() {
       subtitle: 'Search by code or city name.',
       inputLabel: 'Code or City',
       placeholder: 'MXP',
+      settings: 'Settings',
+      back: 'Back',
       recent: 'Recent Lookups',
       ready: 'Ready',
       city: 'City',
@@ -109,12 +120,23 @@ export default function App() {
       country: 'Country',
       readyTag: 'Type a code or city name',
       clearHistory: 'Clear',
+      unknownTitle: 'Code not found',
+      unknownBody: 'Save this IATA code to the missing-codes list?',
+      saveCode: 'Save code',
+      dismiss: 'Dismiss',
+      missingTitle: 'Missing IATA Codes',
+      missingSubtitle: 'Stored locally in this browser.',
+      emptyMissing: 'No missing codes saved yet.',
+      copyRaw: 'Copy raw text',
+      clearMissing: 'Clear list',
     },
     it: {
       title: 'Traduci codice IATA',
       subtitle: 'Cerca per codice o città.',
       inputLabel: 'Codice o Città',
       placeholder: 'MXP',
+      settings: 'Impostazioni',
+      back: 'Indietro',
       recent: 'Ricerche Recenti',
       ready: 'Pronto',
       city: 'Città',
@@ -122,6 +144,15 @@ export default function App() {
       country: 'Paese',
       readyTag: 'Cerca un codice o una città',
       clearHistory: 'Cancella',
+      unknownTitle: 'Codice non trovato',
+      unknownBody: 'Vuoi salvare questo codice IATA nella lista dei codici mancanti?',
+      saveCode: 'Salva codice',
+      dismiss: 'Chiudi',
+      missingTitle: 'Codici IATA Mancanti',
+      missingSubtitle: 'Salvati localmente in questo browser.',
+      emptyMissing: 'Nessun codice mancante salvato.',
+      copyRaw: 'Copia testo',
+      clearMissing: 'Svuota lista',
     }
   };
 
@@ -177,16 +208,40 @@ export default function App() {
     } catch {}
   }, [history]);
 
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+    try {
+      window.localStorage.setItem('iata-missing-codes', JSON.stringify(missingCodes));
+    } catch {}
+  }, [missingCodes]);
+
   const handleInputChange = (e) => {
-    const val = e.target.value;
+    const val = e.target.value.toUpperCase();
     setQuery(val);
     setShowSuggestions(true);
+    setMissingPromptCode(null);
     // Auto-select on exact 3-char IATA match
-    if (val.length === 3) {
-      const exactMatch = AIRPORT_DATA.find(a => a.iata === val.toUpperCase());
+    if (/^[A-Z]{3}$/.test(val)) {
+      const exactMatch = AIRPORT_DATA.find(a => a.iata === val);
       if (exactMatch) { handleSelect(exactMatch); return; }
+      setSelectedAirport(null);
+      setShowSuggestions(false);
+      setMissingPromptCode(val);
+      e.target.blur();
+      return;
     }
     setSelectedAirport(null);
+  };
+
+  const saveMissingCode = (code) => {
+    if (!code) return;
+    setMissingCodes(prev => (prev.includes(code) ? prev : [...prev, code]));
+    setMissingPromptCode(null);
+  };
+
+  const copyMissingCodes = async () => {
+    if (!missingCodes.length || typeof navigator === 'undefined' || !navigator.clipboard) return;
+    await navigator.clipboard.writeText(missingCodes.join('\n'));
   };
 
   // ── Reusable JSX sections ────────────────────────────────────────────────
@@ -211,6 +266,13 @@ export default function App() {
           </button>
         ))}
       </div>
+      <button
+        onClick={() => setPage(page === 'settings' ? 'main' : 'settings')}
+        className="flex items-center gap-2 bg-slate-900/60 rounded-2xl px-4 py-3 border border-slate-700/60 text-xs font-black uppercase tracking-[0.2em] text-slate-300 hover:text-teal-200 transition"
+      >
+        <Settings className="w-4 h-4" />
+        {page === 'settings' ? t.back : t.settings}
+      </button>
     </header>
   );
 
@@ -355,7 +417,34 @@ export default function App() {
             </div>
           </div>
         );
-      })() : (
+      })() : missingPromptCode ? (
+        <div className="space-y-6">
+          <div className="bg-amber-300/10 p-4 rounded-2xl border border-amber-300/30 w-fit">
+            <Plus className="text-amber-200 w-7 h-7" />
+          </div>
+          <div>
+            <p className="text-xs uppercase tracking-[0.5em] text-slate-400">{t.unknownTitle}</p>
+            <h2 className="text-5xl md:text-6xl font-black leading-none mt-1 text-amber-200 font-mono">
+              {missingPromptCode}
+            </h2>
+            <p className="text-slate-300 mt-3">{t.unknownBody}</p>
+          </div>
+          <div className="flex flex-wrap gap-3">
+            <button
+              onClick={() => saveMissingCode(missingPromptCode)}
+              className="px-5 py-3 rounded-2xl bg-teal-300 text-slate-950 font-black uppercase tracking-[0.2em]"
+            >
+              {t.saveCode}
+            </button>
+            <button
+              onClick={() => setMissingPromptCode(null)}
+              className="px-5 py-3 rounded-2xl bg-slate-900 border border-slate-800 text-slate-300 font-black uppercase tracking-[0.2em]"
+            >
+              {t.dismiss}
+            </button>
+          </div>
+        </div>
+      ) : (
         <div className="text-center text-slate-400">
           <Plane className="w-16 h-16 text-slate-700 mx-auto mb-4" />
           <p className="text-xs uppercase tracking-[0.5em]">{t.readyTag}</p>
@@ -364,25 +453,81 @@ export default function App() {
     </div>
   );
 
+  const settingsSection = (
+    <section className="flex flex-col gap-6 glass rounded-[32px] p-6 md:p-10 shadow-2xl">
+      {headerSection}
+      <div className="glass rounded-[32px] p-6 shadow-2xl">
+        <div className="flex flex-wrap items-start justify-between gap-4">
+          <div>
+            <p className="text-xs uppercase tracking-[0.4em] text-teal-200">{t.missingTitle}</p>
+            <p className="text-sm text-slate-400 mt-1">{t.missingSubtitle}</p>
+          </div>
+          <div className="flex flex-wrap gap-2">
+            <button
+              onClick={copyMissingCodes}
+              disabled={!missingCodes.length}
+              className="flex items-center gap-2 px-4 py-2 rounded-2xl bg-slate-900 border border-slate-800 text-xs font-black uppercase tracking-[0.2em] text-slate-300 disabled:opacity-40"
+            >
+              <Copy className="w-4 h-4" />
+              {t.copyRaw}
+            </button>
+            <button
+              onClick={() => setMissingCodes([])}
+              disabled={!missingCodes.length}
+              className="flex items-center gap-2 px-4 py-2 rounded-2xl bg-slate-900 border border-slate-800 text-xs font-black uppercase tracking-[0.2em] text-slate-300 disabled:opacity-40"
+            >
+              <Trash2 className="w-4 h-4" />
+              {t.clearMissing}
+            </button>
+          </div>
+        </div>
+
+        {missingCodes.length ? (
+          <div className="mt-6 space-y-4">
+            <div className="flex flex-wrap gap-2">
+              {missingCodes.map(code => (
+                <span
+                  key={code}
+                  className="px-3 py-2 rounded-xl bg-slate-950/70 border border-slate-800 text-teal-200 font-black font-mono tracking-[0.2em]"
+                >
+                  {code}
+                </span>
+              ))}
+            </div>
+            <textarea
+              readOnly
+              value={missingCodes.join('\n')}
+              className="w-full min-h-48 bg-slate-950/60 border border-slate-800 rounded-3xl p-4 text-sm text-slate-300 font-mono outline-none resize-y"
+            />
+          </div>
+        ) : (
+          <div className="mt-6 text-center text-slate-600 text-xs uppercase tracking-[0.4em]">{t.emptyMissing}</div>
+        )}
+      </div>
+    </section>
+  );
+
   // ── Layout ───────────────────────────────────────────────────────────────
   return (
     <div className="min-h-screen app-shell text-white pb-16 md:pb-0">
       <div className="absolute inset-0 bg-grid bg-[size:36px_36px] opacity-60" />
       <div className="relative z-10 min-h-screen flex flex-col items-center px-4 py-8 md:px-10">
         <div className="w-full max-w-2xl flex flex-col gap-6">
+          {page === 'settings' ? (
+            settingsSection
+          ) : (
+            <>
+              <section className="flex flex-col gap-6 glass rounded-[32px] p-6 md:p-10 shadow-2xl">
+                {headerSection}
+                <div className="mt-2">{searchSection}</div>
+                {resultSection}
+              </section>
 
-          {/* ── Main card: header + search + result ── */}
-          <section className="flex flex-col gap-6 glass rounded-[32px] p-6 md:p-10 shadow-2xl">
-            {headerSection}
-            <div className="mt-2">{searchSection}</div>
-            {resultSection}
-          </section>
-
-          {/* ── History ── */}
-          <div className="glass rounded-[32px] p-6 shadow-2xl">
-            {historySection}
-          </div>
-
+              <div className="glass rounded-[32px] p-6 shadow-2xl">
+                {historySection}
+              </div>
+            </>
+          )}
         </div>
       </div>
     </div>
