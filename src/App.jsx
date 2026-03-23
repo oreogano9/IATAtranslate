@@ -223,7 +223,10 @@ export default function App() {
         </div>
         <input
           type="text"
-          className={`w-full bg-slate-950/60 border border-slate-700 rounded-3xl pl-14 pr-14 py-5 text-teal-200 focus:border-teal-300 focus:ring-2 focus:ring-teal-300/40 outline-none transition placeholder:text-slate-700 ${
+          autoCapitalize="characters"
+          autoCorrect="off"
+          spellCheck={false}
+          className={`w-full bg-slate-950/60 border border-slate-700 rounded-3xl pl-14 pr-14 py-5 text-teal-200 uppercase focus:border-teal-300 focus:ring-2 focus:ring-teal-300/40 outline-none transition placeholder:text-slate-700 ${
             query.length > 3
               ? 'text-2xl md:text-3xl font-bold tracking-wide'
               : 'text-4xl md:text-5xl font-black tracking-[0.35em] font-mono'
