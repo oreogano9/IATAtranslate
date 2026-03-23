@@ -317,7 +317,7 @@ export default function App() {
       </div>
 
       {showSuggestions && suggestions.length > 0 && !selectedAirport && (
-        <div className="absolute z-30 w-full mt-4 glass rounded-3xl overflow-hidden shadow-2xl">
+        <div className="w-full mt-4 glass rounded-3xl overflow-hidden shadow-2xl">
           {suggestions.map(airport => {
             const parsed = parseCity(language === 'it' ? airport.city_it : airport.city);
             return (
