@@ -742,6 +742,13 @@
     "city_it": "Bridgeport"
   },
   {
+    "iata": "BDS",
+    "city": "Brindisi",
+    "country": "Italy",
+    "country_it": "Italia",
+    "city_it": "Brindisi"
+  },
+  {
     "iata": "BDU",
     "city": "Bardufoss",
     "country": "Norway",
