@@ -229,7 +229,6 @@ export default function App() {
       if (exactMatch) { handleSelect(exactMatch); return; }
       setSelectedAirport(null);
       setMissingPromptCode(val);
-      e.target.blur();
       return;
     }
     setSelectedAirport(null);
