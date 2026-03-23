@@ -181,7 +181,7 @@ export default function App() {
         )
       : [];
 
-    return [...codeMatches, ...cityMatches].slice(0, 8);
+    return [...codeMatches, ...cityMatches];
   }, [query]);
 
   const handleSelect = (airport) => {
