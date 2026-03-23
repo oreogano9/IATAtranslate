@@ -1,6 +1,6 @@
 import React, { useState, useMemo, useRef, useEffect } from 'react';
 import {
-  Search, Plane, MapPin, Globe, X, History, RefreshCw, Trash2, Settings, Copy, Plus
+  Search, Plane, MapPin, Globe, X, History, RefreshCw, Trash2, Copy, Plus
 } from 'lucide-react';
 
 import BASE_AIRPORT_DATA from './data/airports.json';
@@ -267,13 +267,6 @@ export default function App() {
           </button>
         ))}
       </div>
-      <button
-        onClick={() => setPage(page === 'settings' ? 'main' : 'settings')}
-        className="flex items-center gap-2 bg-slate-900/60 rounded-2xl px-4 py-3 border border-slate-700/60 text-xs font-black uppercase tracking-[0.2em] text-slate-300 hover:text-teal-200 transition"
-      >
-        <Settings className="w-4 h-4" />
-        {page === 'settings' ? t.back : t.settings}
-      </button>
     </header>
   );
 
