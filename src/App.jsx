@@ -428,7 +428,7 @@ export default function App() {
             </div>
           </div>
         );
-      ) : (
+      })() : (
         <div className="text-center text-slate-400">
           <Plane className="w-16 h-16 text-slate-700 mx-auto mb-4" />
           <p className="text-xs uppercase tracking-[0.5em]">{t.readyTag}</p>
