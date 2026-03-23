@@ -154,8 +154,58 @@ function collectCoordinates(geometry, points = []) {
   return points;
 }
 
+function getGeometryBounds(geometry) {
+  const points = collectCoordinates(geometry, []);
+  if (!points.length) return null;
+
+  let minLon = Infinity;
+  let maxLon = -Infinity;
+  let minLat = Infinity;
+  let maxLat = -Infinity;
+
+  points.forEach(([lon, lat]) => {
+    minLon = Math.min(minLon, lon);
+    maxLon = Math.max(maxLon, lon);
+    minLat = Math.min(minLat, lat);
+    maxLat = Math.max(maxLat, lat);
+  });
+
+  return { minLon, maxLon, minLat, maxLat };
+}
+
+function getBoundsCenter(bounds) {
+  return [(bounds.minLon + bounds.maxLon) / 2, (bounds.minLat + bounds.maxLat) / 2];
+}
+
+function getDistanceSquared(a, b) {
+  return ((a[0] - b[0]) ** 2) + ((a[1] - b[1]) ** 2);
+}
+
+function getFocusedGeometry(feature, fallbackCoordinates) {
+  const geometry = feature?.geometry;
+  if (!geometry || geometry.type !== 'MultiPolygon' || !fallbackCoordinates) return geometry;
+
+  const target = [fallbackCoordinates.lon, fallbackCoordinates.lat];
+  let bestGeometry = null;
+  let bestDistance = Infinity;
+
+  geometry.coordinates.forEach((polygon) => {
+    const candidateGeometry = { type: 'Polygon', coordinates: polygon };
+    const bounds = getGeometryBounds(candidateGeometry);
+    if (!bounds) return;
+    const center = getBoundsCenter(bounds);
+    const distance = getDistanceSquared(center, target);
+    if (distance < bestDistance) {
+      bestDistance = distance;
+      bestGeometry = candidateGeometry;
+    }
+  });
+
+  return bestGeometry || geometry;
+}
+
 function getFeatureViewport(feature, fallbackCoordinates) {
-  const points = collectCoordinates(feature?.geometry, []);
+  const points = collectCoordinates(feature, []);
   if (!points.length) {
     return {
       center: fallbackCoordinates ? [fallbackCoordinates.lon, fallbackCoordinates.lat] : [0, 20],
@@ -482,7 +532,8 @@ export default function App() {
         const selectedFeature = WORLD_GEOJSON.features.find(
           (feature) => feature.properties?.name === mapCountryName
         );
-        const mapViewport = getFeatureViewport(selectedFeature, coordinates);
+        const focusedGeometry = getFocusedGeometry(selectedFeature, coordinates);
+        const mapViewport = getFeatureViewport(focusedGeometry, coordinates);
         return (
           <div className="space-y-6">
             <div className="flex items-start justify-between">
@@ -532,10 +583,13 @@ export default function App() {
                         {({ geographies }) =>
                           geographies.map((geo) => {
                             const isSelected = geo.properties?.name === mapCountryName;
+                            const geography = isSelected && focusedGeometry
+                              ? { ...geo, geometry: focusedGeometry }
+                              : geo;
                             return (
                               <Geography
                                 key={geo.rsmKey}
-                                geography={geo}
+                                geography={geography}
                                 style={{
                                   default: {
                                     fill: isSelected ? '#134e4a' : '#0f172a',
