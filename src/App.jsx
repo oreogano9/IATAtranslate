@@ -9,7 +9,16 @@ import AIRPORT_DATA_V2 from './data/airportsv2.js';
 import AIRPORT_COORDINATES from './data/airportCoordinates.js';
 import WORLD_GEOJSON from './data/world-countries.json';
 
-const AIRPORT_DATA = [...BASE_AIRPORT_DATA, ...AIRPORT_DATA_V2];
+const CITY_GROUP_CODES = new Set([
+  'BHZ', 'BJS', 'BUE', 'BUH', 'CAS', 'CHI', 'DTT', 'JKT', 'LON', 'MIL',
+  'MMA', 'MOW', 'NYC', 'OSA', 'PAR', 'REK', 'RIO', 'ROM', 'SAO', 'SEL',
+  'SPK', 'STO', 'TCI', 'TYO', 'WAS', 'YEA', 'YMQ', 'YTO',
+]);
+
+const AIRPORT_DATA = [...BASE_AIRPORT_DATA, ...AIRPORT_DATA_V2].filter(
+  airport => !CITY_GROUP_CODES.has(airport.iata)
+);
+const AIRPORT_CODE_SET = new Set(AIRPORT_DATA.map(airport => airport.iata));
 
 // ── Country name → ISO 3166-1 alpha-2 ──────────────────────────────────────
 const CC = {
@@ -96,14 +105,7 @@ const MAP_COUNTRY_ALIASES = {
 
 const COORDINATE_FALLBACK_CODES = {
   AHT: 'ADK',
-  BHZ: 'CNF',
-  BJS: 'PEK',
-  BUE: 'EZE',
-  BUH: 'OTP',
-  CAS: 'CMN',
-  CHI: 'ORD',
   CUX: 'CRP',
-  DTT: 'DTW',
   EMB: 'SFO',
   FBU: 'OSL',
   GEN: 'OSL',
@@ -111,39 +113,18 @@ const COORDINATE_FALLBACK_CODES = {
   JAJ: 'ATL',
   JAO: 'ATL',
   JDM: 'MIA',
-  JKT: 'CGK',
   JON: 'MAJ',
-  LON: 'LHR',
-  MIL: 'MXP',
   MLH: 'BSL',
-  MMA: 'MMX',
-  MOW: 'SVO',
-  NYC: 'JFK',
-  OSA: 'KIX',
-  PAR: 'CDG',
-  REK: 'KEF',
-  RIO: 'GIG',
-  ROM: 'FCO',
   RSC: 'RIX',
-  SAO: 'GRU',
   SDA: 'BGW',
   SDV: 'TLV',
-  SEL: 'ICN',
-  SPK: 'CTS',
   SPL: 'AMS',
-  STO: 'ARN',
   SWK: 'LIN',
   SXF: 'BER',
-  TCI: 'TFS',
   THF: 'BER',
   TSO: 'ISC',
   TXL: 'BER',
-  TYO: 'HND',
-  WAS: 'IAD',
-  YEA: 'YEG',
   YED: 'YEG',
-  YMQ: 'YUL',
-  YTO: 'YYZ',
   YXD: 'YEG',
 };
 
@@ -212,7 +193,7 @@ export default function App() {
     if (typeof window === 'undefined') return [];
     try {
       const raw = window.localStorage.getItem('iata-history');
-      return raw ? JSON.parse(raw) : [];
+      return raw ? JSON.parse(raw).filter(entry => AIRPORT_CODE_SET.has(entry.iata)) : [];
     } catch { return []; }
   });
   const [missingCodes, setMissingCodes] = useState(() => {
