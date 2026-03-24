@@ -262,7 +262,7 @@ export default function App() {
   const [query, setQuery] = useState('');
   const [selectedAirport, setSelectedAirport] = useState(null);
   const [activeMapCountry, setActiveMapCountry] = useState(null);
-  const [mapZoomLevel, setMapZoomLevel] = useState(0);
+  const [mapZoomMultiplier, setMapZoomMultiplier] = useState(1);
   const [showSuggestions, setShowSuggestions] = useState(false);
   const [missingPromptCode, setMissingPromptCode] = useState(null);
   const [history, setHistory] = useState(() => {
@@ -398,7 +398,7 @@ export default function App() {
 
   useEffect(() => {
     setActiveMapCountry(null);
-    setMapZoomLevel(0);
+    setMapZoomMultiplier(1);
   }, [selectedAirport?.iata]);
 
   const handleInputChange = (e) => {
@@ -578,7 +578,7 @@ export default function App() {
           ? getPrimaryGeometry(selectedFeature)
           : getFocusedGeometry(selectedFeature, primaryCoordinates);
         const mapViewport = getFeatureViewport(focusedGeometry, primaryCoordinates);
-        const effectiveZoom = Math.max(1, Math.min(12, mapViewport.zoom + mapZoomLevel));
+        const effectiveZoom = Math.max(1, Math.min(24, mapViewport.zoom * mapZoomMultiplier));
         const markerRadius = activeMapCountry ? 1.2 : 2.75;
         const mapMarkers = activeMapCountry
           ? countryAirports
@@ -625,14 +625,14 @@ export default function App() {
                   <div className="absolute top-4 right-4 z-10 flex flex-col gap-2">
                     <button
                       type="button"
-                      onClick={() => setMapZoomLevel((prev) => Math.min(prev + 0.75, 6))}
+                      onClick={() => setMapZoomMultiplier((prev) => Math.min(prev * 1.4, 8))}
                       className="w-9 h-9 rounded-xl bg-slate-900/85 border border-slate-700 text-slate-200 hover:text-teal-200 transition flex items-center justify-center"
                     >
                       <Plus className="w-4 h-4" />
                     </button>
                     <button
                       type="button"
-                      onClick={() => setMapZoomLevel((prev) => Math.max(prev - 0.75, -2))}
+                      onClick={() => setMapZoomMultiplier((prev) => Math.max(prev / 1.4, 0.35))}
                       className="w-9 h-9 rounded-xl bg-slate-900/85 border border-slate-700 text-slate-200 hover:text-teal-200 transition flex items-center justify-center"
                     >
                       <Minus className="w-4 h-4" />
