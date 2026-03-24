@@ -207,6 +207,27 @@ function getFocusedGeometry(feature, fallbackCoordinates) {
   return bestGeometry || geometry;
 }
 
+function getPrimaryGeometry(feature) {
+  const geometry = feature?.geometry;
+  if (!geometry || geometry.type !== 'MultiPolygon') return geometry;
+
+  let bestGeometry = null;
+  let bestArea = -Infinity;
+
+  geometry.coordinates.forEach((polygon) => {
+    const candidateGeometry = { type: 'Polygon', coordinates: polygon };
+    const bounds = getGeometryBounds(candidateGeometry);
+    if (!bounds) return;
+    const area = (bounds.maxLon - bounds.minLon) * (bounds.maxLat - bounds.minLat);
+    if (area > bestArea) {
+      bestArea = area;
+      bestGeometry = candidateGeometry;
+    }
+  });
+
+  return bestGeometry || geometry;
+}
+
 function getFeatureViewport(feature, fallbackCoordinates) {
   const points = collectCoordinates(feature, []);
   if (!points.length) {
@@ -553,7 +574,9 @@ export default function App() {
         const primaryCoordinates = activeMapCountry
           ? countryAirports[0]?.coordinates || coordinates
           : coordinates;
-        const focusedGeometry = getFocusedGeometry(selectedFeature, primaryCoordinates);
+        const focusedGeometry = activeMapCountry
+          ? getPrimaryGeometry(selectedFeature)
+          : getFocusedGeometry(selectedFeature, primaryCoordinates);
         const mapViewport = getFeatureViewport(focusedGeometry, primaryCoordinates);
         const effectiveZoom = Math.max(1, Math.min(12, mapViewport.zoom + mapZoomLevel));
         const markerRadius = (activeMapCountry ? 1.2 : 2.75) / effectiveZoom;
