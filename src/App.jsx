@@ -102,6 +102,9 @@ const MAP_COUNTRY_ALIASES = {
   "Côte d'Ivoire": 'Ivory Coast',
   'Bosnia and Herzegovina': 'Bosnia and Herz.',
 };
+const MAP_NAME_TO_COUNTRY = Object.fromEntries(
+  Object.entries(MAP_COUNTRY_ALIASES).map(([country, mapName]) => [mapName, country])
+);
 
 const COORDINATE_FALLBACK_CODES = {
   AHT: 'ADK',
@@ -237,6 +240,7 @@ export default function App() {
   const [page, setPage] = useState('main');
   const [query, setQuery] = useState('');
   const [selectedAirport, setSelectedAirport] = useState(null);
+  const [activeMapCountry, setActiveMapCountry] = useState(null);
   const [showSuggestions, setShowSuggestions] = useState(false);
   const [missingPromptCode, setMissingPromptCode] = useState(null);
   const [history, setHistory] = useState(() => {
@@ -369,6 +373,10 @@ export default function App() {
       window.localStorage.setItem('iata-missing-codes', JSON.stringify(missingCodes));
     } catch {}
   }, [missingCodes]);
+
+  useEffect(() => {
+    setActiveMapCountry(null);
+  }, [selectedAirport?.iata]);
 
   const handleInputChange = (e) => {
     const val = e.target.value.toUpperCase();
@@ -528,12 +536,26 @@ export default function App() {
         const emoji = getFlag(selectedAirport.country);
         const countryName = language === 'it' ? selectedAirport.country_it : selectedAirport.country;
         const coordinates = getAirportCoordinates(selectedAirport.iata);
-        const mapCountryName = getMapCountryName(selectedAirport.country);
+        const displayCountry = activeMapCountry || selectedAirport.country;
+        const mapCountryName = getMapCountryName(displayCountry);
         const selectedFeature = WORLD_GEOJSON.features.find(
           (feature) => feature.properties?.name === mapCountryName
         );
-        const focusedGeometry = getFocusedGeometry(selectedFeature, coordinates);
-        const mapViewport = getFeatureViewport(focusedGeometry, coordinates);
+        const countryAirports = AIRPORT_DATA
+          .filter((airport) => airport.country === displayCountry)
+          .map((airport) => ({
+            iata: airport.iata,
+            coordinates: getAirportCoordinates(airport.iata),
+          }))
+          .filter((airport) => airport.coordinates);
+        const primaryCoordinates = activeMapCountry
+          ? countryAirports[0]?.coordinates || coordinates
+          : coordinates;
+        const focusedGeometry = getFocusedGeometry(selectedFeature, primaryCoordinates);
+        const mapViewport = getFeatureViewport(focusedGeometry, primaryCoordinates);
+        const mapMarkers = activeMapCountry
+          ? countryAirports
+          : [{ iata: selectedAirport.iata, coordinates }].filter((airport) => airport.coordinates);
         return (
           <div className="space-y-6">
             <div className="flex items-start justify-between">
@@ -586,11 +608,18 @@ export default function App() {
                             const geography = isSelected && focusedGeometry
                               ? { ...geo, geometry: focusedGeometry }
                               : geo;
+                            const countryFromMap = MAP_NAME_TO_COUNTRY[geo.properties?.name] || geo.properties?.name;
+                            const hasAirports = AIRPORT_DATA.some((airport) => airport.country === countryFromMap);
                             return (
                               <Geography
                                 key={geo.rsmKey}
                                 geography={geography}
                                 vectorEffect="non-scaling-stroke"
+                                onClick={() => {
+                                  if (!hasAirports) return;
+                                  setActiveMapCountry(countryFromMap);
+                                }}
+                                className={hasAirports ? 'cursor-pointer' : ''}
                                 style={{
                                   default: {
                                     fill: isSelected ? '#134e4a' : '#0f172a',
@@ -606,9 +635,11 @@ export default function App() {
                           })
                         }
                       </Geographies>
-                      <Marker coordinates={[coordinates.lon, coordinates.lat]}>
-                        <circle r={2.75} fill="#f97316" />
-                      </Marker>
+                      {mapMarkers.map((airport) => (
+                        <Marker key={airport.iata} coordinates={[airport.coordinates.lon, airport.coordinates.lat]}>
+                          <circle r={1.2} fill="#f97316" />
+                        </Marker>
+                      ))}
                     </ZoomableGroup>
                   </ComposableMap>
                 </div>
