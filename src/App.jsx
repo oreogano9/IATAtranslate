@@ -590,11 +590,12 @@ export default function App() {
                               <Geography
                                 key={geo.rsmKey}
                                 geography={geography}
+                                vectorEffect="non-scaling-stroke"
                                 style={{
                                   default: {
                                     fill: isSelected ? '#134e4a' : '#0f172a',
                                     stroke: isSelected ? '#5eead4' : '#334155',
-                                    strokeWidth: isSelected ? 0.9 : 0.45,
+                                    strokeWidth: isSelected ? 0.6 : 0.3,
                                     outline: 'none',
                                   },
                                   hover: { fill: isSelected ? '#134e4a' : '#0f172a', outline: 'none' },
