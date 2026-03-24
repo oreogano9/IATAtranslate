@@ -579,7 +579,7 @@ export default function App() {
           : getFocusedGeometry(selectedFeature, primaryCoordinates);
         const mapViewport = getFeatureViewport(focusedGeometry, primaryCoordinates);
         const effectiveZoom = Math.max(1, Math.min(12, mapViewport.zoom + mapZoomLevel));
-        const markerRadius = (activeMapCountry ? 1.2 : 2.75) / effectiveZoom;
+        const markerRadius = activeMapCountry ? 1.2 : 2.75;
         const mapMarkers = activeMapCountry
           ? countryAirports
           : [{ iata: selectedAirport.iata, coordinates }].filter((airport) => airport.coordinates);
@@ -680,7 +680,9 @@ export default function App() {
                       </Geographies>
                       {mapMarkers.map((airport) => (
                         <Marker key={airport.iata} coordinates={[airport.coordinates.lon, airport.coordinates.lat]}>
-                          <circle r={markerRadius} fill="#f97316" vectorEffect="non-scaling-stroke" />
+                          <g transform={`scale(${1 / effectiveZoom})`}>
+                            <circle r={markerRadius} fill="#f97316" />
+                          </g>
                         </Marker>
                       ))}
                     </ZoomableGroup>
