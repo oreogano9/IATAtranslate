@@ -680,9 +680,7 @@ export default function App() {
                       </Geographies>
                       {mapMarkers.map((airport) => (
                         <Marker key={airport.iata} coordinates={[airport.coordinates.lon, airport.coordinates.lat]}>
-                          <g transform={`scale(${1 / effectiveZoom})`}>
-                            <circle r={markerRadius} fill="#f97316" />
-                          </g>
+                          <circle r={markerRadius} fill="#f97316" />
                         </Marker>
                       ))}
                     </ZoomableGroup>
